@@ -4,6 +4,7 @@ html {
   display: block;
   font-family: var(--main-font-family);
   margin: 0;
+  height: 100%;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   flex-direction: column;
   font-family: var(--main-font-family)f;
   margin: 0;
+  height: 100%;
   margin-bottom: 64px;
 }
 
@@ -60,7 +62,8 @@ subheader > #breadcrumbs > a:visited {
 footer {
   display: flex;
   align-items: center;
-  position: absolute;
+  position: relative;
+  min-height: 64px;
   bottom: 0;
   width: 100%;
   height: var(--footer-height);
@@ -306,9 +309,10 @@ input {
 .cards__container {
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  margin-bottom: 40px;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1268px;
 }
 
 .card {
@@ -317,6 +321,7 @@ input {
   background-color: var(--color-grey);
   margin: 10px;
   padding: 20px;
+  height: fit-content;
   border-radius: 5px;
   -webkit-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   -moz-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -moz-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -352,7 +357,7 @@ input {
 
 .card__title {
   font-size: var(--font-size-title);
-  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .card__description {
@@ -365,9 +370,23 @@ input {
   align-items: center;
 }
 
-.card__image > a > img {
+.home-body > .home-body__title {
+  margin: 18px 0 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  max-width: 300px;
+  font-size: 30px;
+}
+
+.card__image {
+  display: flex;
+  justify-content: center;
+}
+
+.card__image > img {
+  width: 100%;
+  max-width: 200px;
   height: auto;
 }
 
@@ -411,6 +430,29 @@ input {
   width: 100%;
   max-width: 300px;
   height: auto;
+}
+
+.card__buttons-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.logo-text {
+  margin-left: 10px;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.socials > a {
+  color: black;
+}
+
+.socials > a:visited {
+  color: black;
+}
+
+.socials > a > i {
+  margin-right: 10px;
 }
 
 /*Media requests*/
