@@ -1,0 +1,8 @@
+#theme:
+title: SAIFAS BI
+description: Saifas Bi Projects
+url: https://ecmajs.github.io
+author: EcmaJS
+google_analytics: UA-212804240-2
+plugins:
+  - jekyll-seo-tag
