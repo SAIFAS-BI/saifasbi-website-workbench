@@ -3,7 +3,7 @@ layout: details
 ---
 <div class="details__card">
   <div class="details__card-image">
-    <img src="/website/assets/images/heatmap-icon.png">
+    <img src="website/assets/images/heatmap-icon.png">
   </div>
   <div class="details__card-text">
     <div class="details__card-title">
