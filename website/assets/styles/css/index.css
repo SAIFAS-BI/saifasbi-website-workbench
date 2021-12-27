@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   font-family: var(--main-font-family)f;
   margin: 0;
+  height: auto;
   margin-bottom: 64px;
 }
 
