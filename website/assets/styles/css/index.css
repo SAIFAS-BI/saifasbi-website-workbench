@@ -62,7 +62,7 @@ subheader > #breadcrumbs > a:visited {
 footer {
   display: flex;
   align-items: center;
-  position: relative;
+  position: fixed;
   min-height: 64px;
   bottom: 0;
   width: 100%;
@@ -309,7 +309,7 @@ input {
 .cards__container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1268px;
