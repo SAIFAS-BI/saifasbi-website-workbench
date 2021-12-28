@@ -418,6 +418,10 @@ input {
   margin-left: 20px;
 }
 
+.details__card-text > a {
+  margin-top: 20px;
+}
+
 .details__card-title {
   font-size: var(--font-size-title);
 }
