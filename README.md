@@ -7,3 +7,5 @@ Launch local docker hosting:
 3. Execute command "sudo docker-compose up" 
 
 Go to adress http://0.0.0.0:4000/
+
+[Guide] Host site from another directory https://gist.github.com/cobyism/4730490
