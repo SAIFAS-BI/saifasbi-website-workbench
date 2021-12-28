@@ -1,3 +1,3 @@
 ---
-layout: showcase-published-and-embedded
+layout: report-showcase-published-and-embedded-index
 ---

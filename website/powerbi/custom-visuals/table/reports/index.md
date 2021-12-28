@@ -1,12 +1,12 @@
 ---
-layout: tables
+layout: reports
 ---
 <div class="card">
   <div class="card__title">
     Showcase Sample 1
   </div>
   <div class="card__image">
-    <img src="/assets/images/empty-image.png" alt="">
+    <img src="/assets/images/saifas-bi-pbi-cv-table-300px-300px.png" alt="">
   </div>
   <div class="card__description">
     Showcase description

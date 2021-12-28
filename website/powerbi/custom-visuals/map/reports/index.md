@@ -1,5 +1,5 @@
 ---
-layout: tables
+layout: reports
 ---
 <div class="card">
   <div class="card__title">
