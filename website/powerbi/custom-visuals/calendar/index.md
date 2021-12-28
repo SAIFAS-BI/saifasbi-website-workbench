@@ -1,9 +1,9 @@
 ---
-layout: details
+layout: powerbi-custom-visual-index
 ---
 <div class="details__card">
   <div class="details__card-image">
-    <img src="/assets/images/calendar-icon.png">
+    <img src="/assets/images/saifas-bi-pbi-cv-calendar-300px-300px.png">
   </div>
   <div class="details__card-text">
     <div class="details__card-title">

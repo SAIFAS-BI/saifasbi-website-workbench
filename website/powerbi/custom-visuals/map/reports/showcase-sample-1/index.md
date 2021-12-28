@@ -1,5 +1,5 @@
 ---
-layout: showcase-details
+layout: report-showcase-index
 ---
 Details
 <a class='btn' href='./embedded'>Embedded</a>
