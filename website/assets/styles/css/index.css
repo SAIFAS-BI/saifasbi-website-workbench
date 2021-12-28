@@ -86,12 +86,14 @@ footer {
 }
 
 .note__title {
+  color: var(--text-color);
   font-size: var(--font-size-title);
   font-weight: 400;
   padding: 20px;
 }
 
 .note__description {
+  color: var(--text-color);
   padding: 0 20px;
   font-weight: 400;
 }
@@ -289,21 +291,25 @@ input {
 }
 
 .description__text-block {
+  color: var(--text-color);
   margin: 10px 10px 40px 10px;
 }
 
 .description__title {
+  color: var(--text-color);
   font-size: var(--font-size-title);
   font-weight: 400;
   margin-bottom: 20px;
 }
 
 .description__message {
+  color: var(--text-color);
   font-size: 18px;
   font-weight: 200;
 }
 
 .description-btn {
+  color: var(--text-color);
   margin-left: 10px;
 }
 
@@ -357,11 +363,13 @@ input {
 }
 
 .card__title {
+  color: var(--text-color);
   font-size: var(--font-size-title);
   margin-bottom: 20px;
 }
 
 .card__description {
+  color: var(--text-color);
   font-size: var(--font-size-description);
   margin-top: 20px;
 }
@@ -378,6 +386,7 @@ input {
   justify-content: center;
   width: 100%;
   font-size: 30px;
+  color: var(--text-color);
 }
 
 .card__image {
@@ -423,10 +432,12 @@ input {
 }
 
 .details__card-title {
+  color: var(--text-color);
   font-size: var(--font-size-title);
 }
 
 .details__card-description {
+  color: var(--text-color);
   font-size: var(--font-size-description);
   margin-top: 10px;
 }
@@ -442,10 +453,25 @@ input {
   margin-top: 20px;
 }
 
-.logo-text {
+
+header > a {
+  display: flex;
+  align-items: center
   margin-left: 10px;
   font-size: 22px;
-  font-style: italic;
+  font-style: normal;
+  text-decoration: none;
+}
+
+header > a > .logo-text {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  color: var(--text-color);
+}
+
+header > a:visited {
+  color: var(--text-color);
 }
 
 .socials > a {
