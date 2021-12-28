@@ -1,6 +1,4 @@
 ---
 layout: home
 ---
-{% for post in site.posts %}
-  {% include card.html %}
-{% endfor %}
+<a href='/powerbi/custom-visuals/'>Visuals</a>
