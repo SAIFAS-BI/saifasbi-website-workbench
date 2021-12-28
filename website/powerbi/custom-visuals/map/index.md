@@ -3,11 +3,11 @@ layout: details
 ---
 <div class="details__card">
   <div class="details__card-image">
-    <img src="/assets/images/heatmap-icon.png">
+    <img src="/assets/images/map-icon.png">
   </div>
   <div class="details__card-text">
     <div class="details__card-title">
-      Heatmap
+      Map
     </div>
     <div class="details__card-description">
       Power BI Custom Visual
