@@ -21,13 +21,13 @@ Highcharts.chart('container', {
     plotBorderWidth: null,
     plotShadow: false,
     type: 'pie',
-    height: 700,
-    width: 700,
+    height: 600,
+    width: 600,
     responsive: {
       rules: {
         condition: {
-          maxHeight: 700,
-          maxWidth: 700,
+          maxHeight: 600,
+          maxWidth: 600,
           minHeight: 200,
           minWidth: 200
         },
