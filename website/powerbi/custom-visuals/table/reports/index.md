@@ -1,15 +1,16 @@
 ---
 layout: reports
+title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual - SAIFAS Table'
 ---
 <div class="card">
   <div class="card__title">
-    Showcase Sample 1
+    Showcase sample report 1
   </div>
   <div class="card__image">
-    <img src="/assets/images/saifas-bi-pbi-cv-table-300px-300px.png" alt="">
+    <img src="/assets/images/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-table-300px-300px.png" alt="">
   </div>
   <div class="card__description">
-    Showcase description
+    Company employees
   </div>
   <div class="card__buttons-container">
     <a class="btn" href="./showcase-sample-1/">Details</a>

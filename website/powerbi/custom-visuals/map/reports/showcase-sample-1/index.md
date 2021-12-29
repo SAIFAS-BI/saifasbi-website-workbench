@@ -1,5 +1,6 @@
 ---
 layout: report-showcase-index
+title: 'SAIFAS BI | Power BI showcase sample report for Power BI custom visual - SAIFAS Map'
 ---
 Details
 <a class='btn' href='./embedded'>Embedded</a>
