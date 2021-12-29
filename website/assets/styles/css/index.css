@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   font-family: var(--main-font-family)f;
   margin: 0;
-  height: auto;
+  height: 100%;
   margin-bottom: 64px;
   background: white;
 }
@@ -31,6 +31,10 @@ header {
   align-items: center;
 }
 
+.main {
+  height: 100%;
+}
+
 header > a > img {
   max-width: 50px;
   max-height: 50px;
@@ -38,9 +42,6 @@ header > a > img {
 }
 
 #container {
-	min-width: 310px;
-	max-width: 800px;
-	height: 400px;
 	margin: 0 auto
 }
 
@@ -72,7 +73,7 @@ subheader > #breadcrumbs > a:visited {
 footer {
   display: flex;
   align-items: center;
-  position: fixed;
+  position: sticky;
   min-height: 64px;
   bottom: 0;
   width: 100%;
@@ -140,7 +141,6 @@ footer {
 .cards__container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 70px;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1268px;
@@ -201,9 +201,11 @@ footer {
 .home-body {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
-.home-body > .home-body__title {
+.home-body__title {
   margin: 18px 0 8px 0;
   display: flex;
   align-items: center;
@@ -379,6 +381,22 @@ header > a:visited {
 
 .loaded .preloader {
   display: none;
+}
+
+.highcharts-root {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.highcharts-container {
+  width: auto !important;
+  height: auto !important;
+}
+
+/*Flex styles*/
+
+.flex-direction-column {
+  flex-direction: column;
 }
 
 /*Media requests*/
