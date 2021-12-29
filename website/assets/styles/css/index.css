@@ -421,6 +421,12 @@ header > a:visited {
   height: auto !important;
 }
 
+.columns-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 100%;
+}
+
 /*Flex styles*/
 
 .flex-direction-column {

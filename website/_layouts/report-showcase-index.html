@@ -8,26 +8,23 @@
   <title>{{ page.title }}</title>
 
 
-  <header>
+   <body class="details-body">
+	<header>
 
-    {% include header-logo.html %}
-    {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
-    {% include header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
-    {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI showcase sample reports' %}
-    {% include header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
+      {% include header-logo.html %}
+      {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
+      {% include header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
+      {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI showcase sample reports' %}
+      {% include header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
 
-  </header>
-
-
-  <body class="details-body">
-
-    <div style="height: 100%;">
+  	</header>
+  	
+    <div style="height: 100%; display: flex; flex-direction: column;">
       {{ content }}
     </div>
 
+	{% include footer.html %}
+    
   </body>
-
-
-  {% include footer.html %}
 
 </html>
