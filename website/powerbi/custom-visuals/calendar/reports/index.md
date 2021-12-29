@@ -8,7 +8,7 @@ title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual 
     Showcase sample report 1
   </div>
   <div class="card__image">
-    <img src="/assets/images/empty-image.png" alt="">
+    <img src="/assets/graphics/empty-image.png" alt="">
   </div>
   <div class="card__description">
     Business scheduler for meetings planning

@@ -7,7 +7,7 @@ title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual 
     Showcase sample report 1
   </div>
   <div class="card__image">
-    <img src="/assets/images/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-table-300px-300px.png" alt="">
+    <img src="/assets/graphics/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-table-300px-300px.png" alt="">
   </div>
   <div class="card__description">
     Company employees
