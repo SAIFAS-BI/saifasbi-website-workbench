@@ -1,62 +1,36 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <head>
-    <title>SAIFAS BI</title>
-    <link rel="stylesheet" href="/assets/styles/css/index.css" />
-    <link rel="stylesheet" href="/assets/styles/css/variables.css" />
-    <script src="https://kit.fontawesome.com/3ddd0feda7.js" crossorigin="anonymous"></script>
-    <meta http-equiv="Content-Type" content="application/json; charset=utf-8">
-    <!-- Load browser tab favicon -->
-     <!-- <link rel="shortcut icon" href="/assets/images/saifas-bi-brand-logo.png" type="image/png"> -->
-    <link rel="shortcut icon" href="assets/images/saifas-brand-theme-blue-white-logo-star.ico">
-  </head>
+  {% include base-assets.html %}
 
-  <div class="preloader">
-    <div class="preloader__row">
-      <div class="preloader__item"></div>
-      <div class="preloader__item"></div>
-    </div>
-  </div>
+  {% include preloader.html %}
+
+  <title>{{ page.title }}</title>
+
 
   <header>
-    <a href="/">
-      <img src="/assets/images/saifas-bi-brand-logo.png">
-        <div class="logo-text">SAIFAS BI</div>
-    </a>
+
+    {% include header-logo.html %}
+
   </header>
 
+
   <body class="home-body">
+
     <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
     <div class="cards__container">
       {{ content }}
     </div>
+
   </body>
 
-  <footer>
-    <address class="footer__contact-us">
-      For purchasing any custom visual, please contact: <a style="margin-left: 4px;" href="mailto:bi-support@saifas.org">bi-support@saifas.org</a>
-    </address>
-    <div class="watermark">
-      <div class="socials">
-        <a target="_blank" href="https://github.com/saifas-bi">
-          <i class="fab fa-github fa-lg"></i>
-        </a>
-        <a target="_blank" href="https://www.facebook.com/saifascom">
-          <i class="fab fa-facebook fa-lg"></i>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/company/saifas/">
-          <i class="fab fa-linkedin fa-lg"></i>
-        </a>
-        <a target="_blank" href="https://twitter.com/saifascom">
-          <i class="fab fa-twitter fa-lg"></i>
-        </a>
-      </div>
-      © SAIFAS BI
-    </div>
-  </footer>
+
+  {% include footer.html %}
+
+
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="https://code.highcharts.com/modules/exporting.js"></script>
   <script src="https://code.highcharts.com/modules/accessibility.js"></script>
   <script src='/scripts/index.js'></script>
+
 </html>
