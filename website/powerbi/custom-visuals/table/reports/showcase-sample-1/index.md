@@ -7,6 +7,7 @@ currentVisualReportsUrl: '/powerbi/custom-visuals/table/reports/'
 currentReportPathName: 'Rep-1'
 currentReportPathUrl: '/powerbi/custom-visuals/table/reports/showcase-sample-1/'
 ---
+{% include gallery-links.html %}
 <div class="home-body__title">Showcase Sample 1</div>
   <div class='columns-container'>
     <div class='left-column'>

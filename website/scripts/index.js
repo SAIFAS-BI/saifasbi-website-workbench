@@ -110,5 +110,3 @@ Highcharts.chart('container', {
     }]
   }]
 });
-
-lightGallery(document.getElementById('lightgallery')); 
