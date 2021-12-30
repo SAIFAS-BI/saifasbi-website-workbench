@@ -8,22 +8,23 @@
   <title>{{ page.title }}</title>
 
   <body>
-  
-	<header>
+
+  	<header>
       {% include header-logo.html %}
       {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
     </header>
-    
-    <div class="home-body__title">Our team has developed next Power BI custom visuals</div>
-	<div class="main">
-      <div class="home-body flex-align-items-start">
-    	<div class="cards__container">
-      	  {{ content }}
-    	</div>
+
+
+	  <div class="main">
+      <div class="home-body__title">Our team has developed next Power BI custom visuals</div>
+      <div class="home-body">
+    	   <div class="cards__container">
+      	    {{ content }}
+    	   </div>
       </div>
     </div>
     {% include footer.html %}
+
   </body>
-  
-  
+
 </html>
