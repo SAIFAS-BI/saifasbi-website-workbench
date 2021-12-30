@@ -428,6 +428,20 @@ header > a:visited {
   height: 100%;
 }
 
+#lightgallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#lightgallery > a {
+  margin: 10px;
+}
+
+#lightgallery > a > img {
+  width: 320px;
+  height: 180px;
+}
+
 /*Flex styles*/
 
 .flex-direction-column {
