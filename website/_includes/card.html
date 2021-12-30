@@ -1,14 +1,22 @@
-<div class="card">
-  <div class="card__title">
-    {{ post.title }}
+<div class="custom-visual__card">
+  <div class="card__top-section">
+    <div class="top-section__icon">
+      <img src="{{ post.image }}" alt="">
+    </div>
+    <div class="top-section__title">
+      {{ post.title }}
+      <div class="top-section__description">
+        <img src="/assets/graphics/powerbi-icon.png" alt="">
+        PowerBI visual
+      </div>
+    </div>
   </div>
-  <div class="card__image">
-    <img src="{{ post.image }}" alt="">
+  <div class="main-section">
+    <div class="main-section__description">
+      {{ post.description }}
+    </div>
   </div>
-  <div class="card__description">
-    {{ post.description }}
-  </div>
-  <div class="card__buttons-container">
+  <div class="cards-section">
     <a target="_blank" class="btn" href="{{ post.link }}">Issues</a>
     <a class="btn" href="{{ post.detailsLink }}">Description</a>
   </div>
