@@ -6,3 +6,7 @@ author: EcmaJS
 google_analytics: UA-212804240-2
 plugins:
   - jekyll-seo-tag
+
+customVisualsUrl: '/powerbi/custom-visuals/'
+customVisualsTitle: 'Power BI custom visuals'
+customVisualsReportsTitle: 'Power BI showcase sample reports'

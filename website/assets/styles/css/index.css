@@ -41,6 +41,28 @@ header > a > img {
   margin-left: 20px;
 }
 
+header > a  {
+  color: var(--text-color);
+}
+
+header > a:not(:first-child) {
+  text-decoration: none;
+  background-image: linear-gradient(var(--text-color), var(--text-color));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+header > a:hover:not(:first-child) {
+  background-size: 100% 2px;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
 #container {
 	margin: 0 auto
 }
@@ -220,7 +242,7 @@ footer {
   flex-direction: column;
 }
 
-.home-body__title {
+.home-body__title, .showcase-title {
   margin: 18px 0 8px 0;
   display: flex;
   align-items: center;
@@ -426,6 +448,43 @@ header > a:visited {
   display: grid;
   grid-template-columns: 25% 75%;
   height: 100%;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.left-column__title {
+  color: var(--text-color);
+  font-family: var(--main-font-family);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.left-column > .btn {
+  margin-bottom: 10px;
+}
+
+.disabled {
+  opacity: .5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+#lightgallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#lightgallery > a {
+  margin: 10px;
+}
+
+#lightgallery > a > img {
+  width: 320px;
+  height: 180px;
 }
 
 /*Flex styles*/
