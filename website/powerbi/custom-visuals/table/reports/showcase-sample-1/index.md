@@ -10,8 +10,8 @@ currentReportPathUrl: '/powerbi/custom-visuals/table/reports/showcase-sample-1/'
 <div class="home-body__title">Showcase Sample 1</div>
   <div class='columns-container'>
     <div class='left-column'>
-      Details
-      <a class='btn' href='./embedded'>Embedded</a>
+      <div class='left-column__title'>Details</div>
+      <a class='btn disabled' href='./embedded'>Embedded</a>
       <a class='btn' href='./published'>Published</a>
     </div>
     <div class='right-column'>
