@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   font-family: var(--main-font-family)f;
   margin: 0;
-  height: auto;
+  height: 100%;
   margin-bottom: 64px;
   background: white;
 }
@@ -31,6 +31,10 @@ header {
   align-items: center;
 }
 
+.main {
+  height: 100%;
+}
+
 header > a > img {
   max-width: 50px;
   max-height: 50px;
@@ -38,9 +42,6 @@ header > a > img {
 }
 
 #container {
-	min-width: 310px;
-	max-width: 800px;
-	height: 400px;
 	margin: 0 auto
 }
 
@@ -72,7 +73,7 @@ subheader > #breadcrumbs > a:visited {
 footer {
   display: flex;
   align-items: center;
-  position: fixed;
+  position: sticky;
   min-height: 64px;
   bottom: 0;
   width: 100%;
@@ -140,7 +141,6 @@ footer {
 .cards__container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 70px;
   flex-wrap: wrap;
   justify-content: center;
   /* max-width: 1268px; */
@@ -154,6 +154,7 @@ footer {
   padding: 20px;
   height: fit-content;
   border-radius: 5px;
+  min-width: 295px;
   -webkit-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   -moz-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -moz-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   -o-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -o-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -182,6 +183,14 @@ footer {
   transform: translateY(-1px);
 }
 
+.card:hover > .card__description {
+  display: none;
+}
+
+.card:hover > .card__buttons-container {
+  display: flex;
+}
+
 .card > .btn {
   margin-top: 10px;
 }
@@ -196,6 +205,7 @@ footer {
   color: var(--text-color);
   font-size: var(--font-size-description);
   margin-top: 20px;
+  height: 40px;
 }
 
 .card:hover > .card__buttons-container {
@@ -206,9 +216,11 @@ footer {
 .home-body {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.home-body > .home-body__title {
+.home-body__title {
   margin: 18px 0 8px 0;
   display: flex;
   align-items: center;
@@ -278,10 +290,11 @@ footer {
 }
 
 .card__buttons-container {
-  display: flex;
+  display: none;
   margin-top: 20px;
   transition: .3s;
   opacity: 0;
+  height: 40px;
 }
 
 
@@ -397,6 +410,39 @@ header > a:visited {
 
 .breadcrumbs-text {
   margin: 0;
+}
+
+.highcharts-root {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.highcharts-container {
+  width: auto !important;
+  height: auto !important;
+}
+
+.columns-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 100%;
+}
+
+/*Flex styles*/
+
+.flex-direction-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-align-items-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-justify-content-center {
+  display: flex;
+  justify-content: center;
 }
 
 /*Media requests*/
