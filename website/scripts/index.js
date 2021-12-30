@@ -95,7 +95,7 @@ Highcharts.chart('container', {
       name: 'PowerBI',
       y: 67,
       events: {
-        click: () => {document.location.href = "/powerbi/custom-visuals/"}
+        click: () => {document.location.href = "/powerbi/"}
       },
       sliced: true
     }, {

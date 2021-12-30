@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include base-assets.html %}
+
+  {% include preloader.html %}
+
+  <title>{{ page.title }}</title>
+
+  <body>
+
+  	<header>
+      {% include header-logo.html %}
+    </header>
+
+
+	  <div class="main">
+      <div class="home-body" style="height: 100%;">
+    	   <div class="cards__container">
+      	    {{ content }}
+    	   </div>
+      </div>
+    </div>
+    {% include footer.html %}
+
+  </body>
+
+</html>
