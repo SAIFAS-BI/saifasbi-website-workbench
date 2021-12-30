@@ -8,9 +8,10 @@ currentReportPathName: 'Rep-1'
 currentReportPathUrl: '/powerbi/custom-visuals/table/reports/showcase-sample-1/'
 ---
 {% include gallery-links.html %}
-<div class="home-body__title">Showcase Sample 1</div>
+<div class="home-body__title" style="justify-content: flex-start; padding-left: 20px;">Showcase Sample 1</div>
   <div class='columns-container'>
     <div class='left-column'>
+      <img src="/assets/graphics/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-table-300px-300px.png" style="width: 300px; height: 300px; margin: 10px 0;">
       <div class='left-column__title'>Details</div>
       <a class='btn disabled' href='./embedded'>Embedded</a>
       <a class='btn' href='./published'>Published</a>
