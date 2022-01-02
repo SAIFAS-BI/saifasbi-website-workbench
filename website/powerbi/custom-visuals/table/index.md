@@ -11,7 +11,7 @@ title: 'SAIFAS BI | Power BI custom visual - SAIFAS Table'
       Table
     </div>
     <div class="details__card-description">
-      <img src="/assets/graphics/powerbi-icon.png" alt="">
+      <img src="/assets/graphics/images/content/powerbi-icon-960px-1280px.png" alt="">
       PowerBI visual
     </div>
     <div class="details__card-cost">

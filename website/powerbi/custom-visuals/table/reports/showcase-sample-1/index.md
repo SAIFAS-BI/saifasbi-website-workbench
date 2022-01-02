@@ -18,17 +18,17 @@ currentReportPathUrl: '/powerbi/custom-visuals/table/reports/showcase-sample-1/'
     </div>
     <div class='right-column'>
     <div id="lightgallery">
-      <a href="/assets/images/showcase-1/empty.jpg">
-          <img src="/assets/images/showcase-1/empty.jpg" />
+      <a href="/assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg">
+          <img src="/assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg" />
       </a>
-      <a href="/assets/images/showcase-1/empty.jpg">
-          <img src="/assets/images/showcase-1/empty.jpg" />
+      <a href="/assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg">
+          <img src="/assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg" />
       </a>
-      <a href="/assets/images/showcase-1/empty.jpg">
-          <img src="/assets/images/showcase-1/empty.jpg" />
+      <a href="/assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg">
+          <img src="/assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg" />
       </a>
-      <a href="/assets/images/showcase-1/empty.jpg">
-          <img src="/assets/images/showcase-1/empty.jpg" />
+      <a href="/assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg">
+          <img src="/assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg" />
       </a>
     </div>
   </div>
