@@ -5,7 +5,10 @@
 
   {% include preloader.html %}
 
-  <title>{{ page.title }}</title>
+  <title>
+    {{ page.title }}
+  </title>
+
 
   <body>
 
@@ -14,14 +17,16 @@
       {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
     </header>
 
-
 	  <div class="main">
-      <div class="home-body__title">Our team has developed next Power BI custom visuals</div>
+      <div class="home-body__title">
+        Our team has developed next Power BI custom visuals
+      </div>
       <div class="home-body" style="height: 100%;">
     	   <div class="cards__container">
       	    {{ content }}
     	   </div>
-         <div class="body-separator"></div>
+         <div class="body-separator">
+         </div>
          <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; margin-bottom: 64px;">
            <div class="contact-link-container">
              <address class="contact-link-container__link">
@@ -31,6 +36,7 @@
         </div>
       </div>
     </div>
+
     {% include footer.html %}
 
   </body>

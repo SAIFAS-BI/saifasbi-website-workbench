@@ -5,34 +5,33 @@
 
   {% include preloader.html %}
 
-  <title>{{ page.title }}</title>
-
-
-
+  <title>
+    {{ page.title }}
+  </title>
 
 
   <body>
 
 	<header>
+    {% include header-logo.html %}
+    {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
+    {% include header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
+    {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI showcase sample reports' %}
+    {% include header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
+    {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Deployed iframe' %}
+  </header>
 
-      {% include header-logo.html %}
-      {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
-      {% include header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
-      {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI showcase sample reports' %}
-      {% include header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
-      {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Deployed iframe' %}
+  <div class="showcase-title">
+    {{ page.showcaseTitle }}
+  </div>
 
-    </header>
-    <div class="showcase-title">{{ page.showcaseTitle }}</div>
-    <div style="height: 100%;">
-      {{ content }}
-    </div>
+  <div style="height: 100%;">
+    {{ content }}
+  </div>
 
 	{% include footer.html %}
 
   </body>
-
-
 
 
 </html>

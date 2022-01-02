@@ -5,23 +5,34 @@
 
   {% include preloader.html %}
 
-  <title>{{ page.title }}</title>
+  <title>
+    {{ page.title }}
+  </title>
+
 
   <body>
+
     <header>
       {% include header-logo.html %}
   	</header>
-	<div class="main flex-justify-content-center">
-		<div class="home-body flex-direction-column">
-		  <div class="home-body__title">Our experience</div>
-		  <div id="container" style="max-width: 600px; margin: 0 auto"></div>
-		  <div class="cards__container">
-		    {{ content }}
-		  </div>
-		</div>
-	</div>
-	 {% include footer.html %}
+
+  	<div class="main flex-justify-content-center">
+  		<div class="home-body flex-direction-column">
+  		  <div class="home-body__title">
+          Our experience
+        </div>
+  		  <div id="container" style="max-width: 600px; margin: 0 auto">
+        </div>
+  		  <div class="cards__container">
+  		    {{ content }}
+  		  </div>
+  		</div>
+  	</div>
+
+  	 {% include footer.html %}
+
   </body>
+
 
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="https://code.highcharts.com/modules/exporting.js"></script>

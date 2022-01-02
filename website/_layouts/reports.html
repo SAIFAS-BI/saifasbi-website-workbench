@@ -5,28 +5,31 @@
 
   {% include preloader.html %}
 
-  <title>{{ page.title }}</title>
+  <title>
+    {{ page.title }}
+  </title>
+
 
   <body>
-  
-	<header>
 
+	<header>
 	  {% include header-logo.html %}
 	  {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
 	  {% include header-path-item.html link='/powerbi/custom-visuals' pageName='[]' %}
 	  {% include header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI showcase sample reports' %}
-
 	</header>
-	
+
 	<div class="main">
-      <div class="home-body__title">We prepared next showcase sample reports for selected Power BI custom visual</div>
-      <div class="cards__container">
-        {{ content }}
-      </div>
+    <div class="home-body__title">
+      We prepared next showcase sample reports for selected Power BI custom visual
     </div>
-    
+    <div class="cards__container">
+      {{ content }}
+    </div>
+  </div>
+
 	{% include footer.html %}
-	
+
   </body>
-  
+
 </html>
