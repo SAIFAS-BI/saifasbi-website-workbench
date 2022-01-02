@@ -1,12 +1,11 @@
 #theme:
 title: SAIFAS BI
-description: Saifas Bi Projects
-url: https://ecmajs.github.io
-author: EcmaJS
-google_analytics: UA-212804240-2
+description: SAIFAS BI Projects
+url: https://saifas-bi.github.io
+author: SAIFAS BI
+google_analytics: UA-[]
 plugins:
   - jekyll-seo-tag
-
 customVisualsUrl: '/powerbi/custom-visuals/'
 customVisualsTitle: 'Power BI custom visuals'
 customVisualsReportsTitle: 'Power BI showcase sample reports'
