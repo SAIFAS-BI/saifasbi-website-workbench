@@ -1,5 +1,5 @@
 ---
-layout: reports
+layout: powerbi-reports
 title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual - SAIFAS Map'
 ---
 <div class="card">
@@ -7,7 +7,7 @@ title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual 
     Showcase sample report 1
   </div>
   <div class="card__image">
-    <img src="/assets/graphics/empty-image.png" alt="">
+    <img src="/assets/graphics/images/content/empty/empty-image-224px-224px.png" alt="">
   </div>
   <div class="card__description">
     World people population by countries

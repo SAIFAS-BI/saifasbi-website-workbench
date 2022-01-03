@@ -1,17 +1,17 @@
 ---
-layout: powerbi-custom-visual-index
+layout: powerbi-custom-visual
 title: 'SAIFAS BI | Power BI custom visual - SAIFAS Table'
 ---
 <div class="details__card">
   <div class="details__card-image">
-    <img src="/assets/graphics/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-table-300px-300px.png">
+    <img src="/assets/graphics/images/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-table-300px-300px.png">
   </div>
   <div class="details__card-text">
     <div class="details__card-title">
       Table
     </div>
     <div class="details__card-description">
-      <img src="/assets/graphics/powerbi-icon.png" alt="">
+      <img src="/assets/graphics/images/content/powerbi-icon-960px-1280px.png" alt="">
       PowerBI visual
     </div>
     <div class="details__card-cost">

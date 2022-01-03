@@ -1,5 +1,5 @@
 ---
-layout: reports
+layout: powerbi-reports
 title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual - SAIFAS Table'
 ---
 <div class="reports-card__wrapper">
@@ -10,7 +10,7 @@ title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual 
         Company employees
       </div>
     </div>
-    <img src="/assets/graphics/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-table-300px-300px.png" alt="">
+    <img src="/assets/graphics/images/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-table-300px-300px.png" alt="">
   </div>
   <div class="reports-card-buttons__container">
     <div class="reports-card-details-button">
