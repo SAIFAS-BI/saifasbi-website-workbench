@@ -9,3 +9,4 @@ plugins:
 customVisualsUrl: '/powerbi/custom-visuals/'
 customVisualsTitle: 'Power BI custom visuals'
 customVisualsReportsTitle: 'Power BI showcase sample reports'
+posts-cards-powerbi-custom-visuals: '/_posts/powerbi-custom-visuals/'
