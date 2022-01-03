@@ -1,5 +1,5 @@
 ---
-layout: report-showcase-index
+layout: powerbi-report
 title: 'SAIFAS BI | Power BI show case sample report for Power BI custom visual - SAIFAS Table'
 currentVisualPathName: 'Table'
 currentVisualPathUrl: '/powerbi/custom-visuals/table/'

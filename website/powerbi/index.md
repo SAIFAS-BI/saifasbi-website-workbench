@@ -1,5 +1,5 @@
 ---
-layout: powerbi-index
+layout: powerbi
 ---
 <div class="power-bi__buttons-container">
   <a href='./custom-visuals/' class="power-bi__buttons-container--btn">

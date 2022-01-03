@@ -1,5 +1,5 @@
 ---
-layout: report-showcase-published-and-embedded-index
+layout: powerbi-report-in-iframe
 showcaseTitle: 'Deployed iframe'
 ---
 

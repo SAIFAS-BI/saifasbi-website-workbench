@@ -1,5 +1,5 @@
 ---
-layout: powerbi-custom-visual-index
+layout: powerbi-custom-visual
 title: 'SAIFAS BI | Power BI custom visual - SAIFAS Table'
 ---
 <div class="details__card">

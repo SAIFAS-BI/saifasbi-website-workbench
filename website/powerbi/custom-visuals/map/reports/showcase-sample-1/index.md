@@ -1,5 +1,5 @@
 ---
-layout: report-showcase-index
+layout: powerbi-report
 title: 'SAIFAS BI | Power BI showcase sample report for Power BI custom visual - SAIFAS Map'
 ---
 Details

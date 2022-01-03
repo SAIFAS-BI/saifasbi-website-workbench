@@ -1,5 +1,5 @@
 ---
-layout: reports
+layout: powerbi-reports
 title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual - SAIFAS Calendar'
 ---
 <div class="card">
