@@ -13,8 +13,8 @@ title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual 
     Business scheduler for meetings planning
   </div>
   <div class="card__buttons-container">
-    <a class="btn" href="./showcase-sample-1/">Details</a>
-    <a class="btn" href="./showcase-sample-1/embedded/">Embedded</a>
-    <a class="btn" href="./showcase-sample-1/published/">Published</a>
+    <a class="btn" href="./01/">Details</a>
+    <a class="btn" href="./01/embedded/">Embedded</a>
+    <a class="btn" href="./01/published/">Published</a>
   </div>
 </div>

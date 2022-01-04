@@ -14,11 +14,11 @@ title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual 
   </div>
   <div class="reports-card-buttons__container">
     <div class="reports-card-details-button">
-      <a class="btn" href="./showcase-sample-1/">Details</a>
+      <a class="btn" href="./01/">Details</a>
     </div>
     <div class="reports-card-buttons__container-bottom">
-      <a class="btn" href="./showcase-sample-1/embedded/">Embedded</a>
-      <a class="btn" href="./showcase-sample-1/published/">Published</a>
+      <a class="btn" href="./01/embedded/">Embedded</a>
+      <a class="btn" href="./01/published/">Published</a>
     </div>
   </div>
 </div>
