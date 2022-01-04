@@ -12,26 +12,25 @@
 
   <body>
 
-	<header>
-    {% include page-header-logo.html %}
-    {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
-    {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
-    {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI showcase sample reports' %}
-    {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
-    {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Deployed iframe' %}
-  </header>
+  	<header>
+      {% include page-header-logo.html %}
+      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
+      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
+      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI showcase sample reports' %}
+      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
+      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Deployed iframe' %}
+    </header>
 
-  <div class="showcase-title">
-    {{ page.showcaseTitle }}
-  </div>
+    <div class="showcase-title">
+      {{ page.showcaseTitle }}
+    </div>
 
-  <div style="height: 100%;">
-    {{ content }}
-  </div>
+    <div style="height: 100%;">
+      {{ content }}
+    </div>
 
-	{% include page-footer.html %}
+  	{% include page-footer.html %}
 
   </body>
-
 
 </html>

@@ -10,21 +10,19 @@
   </title>
 
 
-  <header>
-    {% include page-header-logo.html %}
-    {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
-  </header>
-
-
   <body class="details-body">
+
+    <header>
+      {% include page-header-logo.html %}
+      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
+    </header>
 
     <div style="height: 100%;">
       {{ content }}
     </div>
 
+    {% include page-footer.html %}
+
   </body>
-
-
-  {% include page-footer.html %}
 
 </html>
