@@ -12,23 +12,23 @@
 
   <body>
 
-	<header>
-	  {% include page-header-logo.html %}
-	  {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
-	  {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='[]' %}
-	  {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI showcase sample reports' %}
-	</header>
+  	<header>
+  	  {% include page-header-logo.html %}
+  	  {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
+  	  {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='[]' %}
+  	  {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI showcase sample reports' %}
+  	</header>
 
-	<div class="main">
-    <div class="home-body__title">
-      We prepared next showcase sample reports for selected Power BI custom visual
+  	<div class="main">
+      <div class="home-body__title">
+        We prepared next showcase sample reports for selected Power BI custom visual
+      </div>
+      <div class="cards__container">
+        {{ content }}
+      </div>
     </div>
-    <div class="cards__container">
-      {{ content }}
-    </div>
-  </div>
 
-	{% include page-footer.html %}
+  	{% include page-footer.html %}
 
   </body>
 
