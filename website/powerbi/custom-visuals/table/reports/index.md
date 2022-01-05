@@ -2,23 +2,8 @@
 layout: powerbi-reports
 title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual - SAIFAS Table'
 ---
-<div class="reports-card__wrapper">
-  <div class="reports-card">
-    <div class="reports-card__top-section">
-      <i class="fas fa-file-alt"></i>
-      <div class="top-section__title">
-        Company employees
-      </div>
-    </div>
-    <img src="/assets/graphics/images/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-table-300px-300px.png" alt="">
-  </div>
-  <div class="reports-card-buttons__container">
-    <div class="reports-card-details-button">
-      <a class="btn" href="./01/">Details</a>
-    </div>
-    <div class="reports-card-buttons__container-bottom">
-      <a class="btn" href="./01/embedded/">Embedded</a>
-      <a class="btn" href="./01/published/">Published</a>
-    </div>
-  </div>
-</div>
+{% for report in site.collection-powerbi-reports %}
+{% if report.customVisual == 'table' %}
+  {% include card-powerbi-report.html %}
+{% endif %}
+{% endfor %}
