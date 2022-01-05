@@ -1,11 +1,13 @@
 ---
 layout: powerbi-report
 title: 'SAIFAS BI | Power BI show case sample report for Power BI custom visual - SAIFAS Table'
+pageUrl: './'
+pageName: 'Company employees'
 currentVisualPathName: 'Table'
 currentVisualPathUrl: '/powerbi/custom-visuals/table/'
 currentVisualReportsUrl: '/powerbi/custom-visuals/table/reports/'
-currentReportPathName: 'Rep-1'
-currentReportPathUrl: '/powerbi/custom-visuals/table/reports/01/'
+currentReportPathName: 'Company employees'
+currentReportPathUrl: './'
 ---
 {% include lib-gallery-assets.html %}
 

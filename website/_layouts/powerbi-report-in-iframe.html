@@ -14,15 +14,15 @@
 
   	<header>
       {% include page-header-logo.html %}
-      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
-      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
-      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI showcase sample reports' %}
-      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='[-]' %}
-      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Deployed iframe' %}
+      {% include page-header-path-item.html link=site.powerBIcustomVisualsUrl pageName=site.powerBIcustomVisualsTitle %}
+      {% include page-header-path-item.html link=page.currentVisualPathUrl pageName=page.currentVisualPathName %}
+      {% include page-header-path-item.html link=page.currentCanvasParentItemParentArrayPathUrl pageName=page.currentCanvasParentItemParentArrayPathName %}
+      {% include page-header-path-item.html link=page.currentCanvasParentItemPathUrl pageName=page.currentCanvasParentItemPathName %}
+      {% include page-header-path-item.html link=page.pageUrl pageName=page.pageName %}
     </header>
 
-    <div class="showcase-title">
-      {{ page.showcaseTitle }}
+    <div class="home-body__page-headline">
+      {{ page.pageHeadline }}
     </div>
 
     <div style="height: 100%;">

@@ -14,8 +14,12 @@
 
   	<header>
       {% include page-header-logo.html %}
-      {% include page-header-path-item.html link='/powerbi' pageName='Power BI area' %}
+      {% include page-header-path-item.html link=page.pageUrl pageName=page.pageName %}
     </header>
+
+    <div class="home-body__page-headline">
+      {{ page.pageHeadline }}
+    </div>
 
 	  <div class="main">
       <div class="home-body" style="height: 100%;">
