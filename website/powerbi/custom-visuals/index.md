@@ -2,6 +2,6 @@
 layout: powerbi-custom-visuals
 title: 'SAIFAS BI | Power BI custom visuals'
 ---
-{% for post in site.posts %}
+{% for pbi-cv in site.collection-powerbi-custom-visuals %}
   {% include card-powerbi-custom-visual.html %}
 {% endfor %}
