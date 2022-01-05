@@ -915,7 +915,6 @@ header > a:visited {
     margin: 10px;
   }
 }
-
 @media (max-width: 746px) {
   .product > img {
     max-width: 150px !important;
