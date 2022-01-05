@@ -1,14 +1,17 @@
 ---
 layout: powerbi-report
 title: 'SAIFAS BI | Power BI show case sample report for Power BI custom visual - SAIFAS Table'
+pageUrl: './'
+pageName: 'Company employees'
 currentVisualPathName: 'Table'
 currentVisualPathUrl: '/powerbi/custom-visuals/table/'
 currentVisualReportsUrl: '/powerbi/custom-visuals/table/reports/'
-currentReportPathName: 'Rep-1'
-currentReportPathUrl: '/powerbi/custom-visuals/table/reports/01/'
+currentReportPathName: 'Company employees'
+currentReportPathUrl: './'
 ---
-{% include gallery-links.html %}
-<div class="home-body__title" style="justify-content: flex-start; padding-left: 20px;">Showcase Sample 1</div>
+{% include lib-gallery-assets.html %}
+
+<div class="home-body__page-headline" style="justify-content: flex-start; padding-left: 20px;">Showcase Sample 1</div>
   <div class='columns-container'>
     <div class='left-column'>
       <img src="/assets/graphics/images/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-table-300px-300px.png" style="width: 300px; height: 300px; margin: 10px 0;">

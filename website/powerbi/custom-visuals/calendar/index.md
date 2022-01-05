@@ -13,6 +13,6 @@ title: 'SAIFAS BI | Power BI custom visual - SAIFAS Calendar'
     <div class="details__card-description">
       Power BI Custom Visual
     </div>
-    <a class='btn' href='./reports/'>Reports</a>
+    <a class='btn' href='./reports'>Reports</a>
   </div>
 </div>

@@ -1,12 +1,14 @@
 ---
 layout: powerbi
+title: 'SAIFAS BI | Power BI area'
+pageUrl: './'
+pageName: 'Power BI area'
+pageHeadline: 'According to our team experience we provide'
 #engineering-activities
 ---
 
-
-
 <div class="power-bi__buttons-container">
-  <a href='./custom-visuals/' class="power-bi__buttons-container--btn">
+  <a href='./custom-visuals' class="power-bi__buttons-container--btn">
     Custom visuals development
     <i class="fas fa-file-alt fa-3x"></i>
     <div class="power-bi__buttons-container--tag">Type script</div>

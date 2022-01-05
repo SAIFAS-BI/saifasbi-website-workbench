@@ -14,11 +14,12 @@
 
     <header>
       {% include page-header-logo.html %}
-      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
+      {% include page-header-path-item.html link=page.currentCanvasParentArrayPathUrl pageName=page.currentCanvasParentArrayPathName %}
+      {% include page-header-path-item.html link=page.pageUrl pageName=page.currentCanvasPathName %}
     </header>
 
     <div style="height: 100%;">
-      {% include item-powerbi-custom-visual.html imageUrl=page.imageUrl cost=page.cost mainFeaturesDescription=page.mainFeaturesDescription mostPopularUseCasesDescription=page.mostPopularUseCasesDescription %}
+      {% include canvas-powerbi-custom-visual.html imageUrl=page.imageUrl cost=page.cost mainFeaturesDescription=page.mainFeaturesDescription mostPopularUseCasesDescription=page.mostPopularUseCasesDescription %}
     </div>
 
     {% include page-footer.html %}

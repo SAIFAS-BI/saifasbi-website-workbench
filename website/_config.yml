@@ -7,10 +7,10 @@ google_analytics: UA-[]
 highlighter: none
 plugins:
   - jekyll-seo-tag
-customVisualsUrl: '/powerbi/custom-visuals/'
-customVisualsTitle: 'Power BI custom visuals'
-customVisualsReportsTitle: 'Power BI showcase sample reports'
-posts-cards-powerbi-custom-visuals: '/_posts/powerbi-custom-visuals/'
+powerBIcustomVisualsTitle: 'Power BI custom visuals'
+powerBIcustomVisualsUrl: '/powerbi/custom-visuals'
+powerBIReportsTitle: 'Power BI reports'
+powerBIReportsUrl: '/powerbi/reports'
 collections:
   - collection-powerbi-engineering-activities
   - collection-powerbi-custom-visuals

@@ -14,11 +14,11 @@
 
   	<header>
       {% include page-header-logo.html %}
-      {% include page-header-path-item.html link='/powerbi/custom-visuals' pageName='Power BI custom visuals' %}
+      {% include page-header-path-item.html link=page.pageUrl pageName=page.pageName %}
     </header>
 
 	  <div class="main">
-      {% include title.html title='Our team has developed next Power BI custom visuals' %}
+      {% include page-headline.html headline=page.headline %}
       <div class="home-body">
     	   <div class="cards__container">
       	    {{ content }}
