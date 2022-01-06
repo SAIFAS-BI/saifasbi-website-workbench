@@ -9,7 +9,6 @@
     {{ page.title }}
   </title>
 
-
   <body>
 
   	<header>
@@ -21,13 +20,13 @@
       {% include page-header-path-item.html link=page.pageUrl pageName=page.pageName %}
     </header>
 
-    <div class="home-body__page-headline">
+    <div class="headline">
       {{ page.pageHeadline }}
     </div>
 
-    <div style="height: 100%;">
+    <main>
       {% include block-iframe.html iframeTitle=page.iframeTitle iframeSrc=page.iframeSrc frameborder=page.frameborder allowFullScreen=page.allowFullScreen %}
-    </div>
+    </main>
 
   	{% include page-footer.html %}
 

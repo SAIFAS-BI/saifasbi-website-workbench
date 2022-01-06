@@ -9,8 +9,7 @@
     {{ page.title }}
   </title>
 
-
-  <body class="details-body">
+  <body>
 
     <header>
       {% include page-header-logo.html %}
@@ -20,9 +19,9 @@
       {% include page-header-path-item.html link=page.currentReportPathUrl pageName=page.currentReportPathName %}
   	</header>
 
-    <div style="height: 100%; display: flex; flex-direction: column;">
+    <main>
       {{ content }}
-    </div>
+    </main>
 
     {% include page-footer.html %}
 

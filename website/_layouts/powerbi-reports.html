@@ -9,7 +9,6 @@
     {{ page.title }}
   </title>
 
-
   <body>
 
   	<header>
@@ -19,12 +18,12 @@
   	  {% include page-header-path-item.html link=page.pageUrl pageName=page.pageName %}
   	</header>
 
-  	<div class="main">
+  	<main>
       {% include page-headline.html headline=page.pageHeadline %}
       <div class="cards__container">
         {{ content }}
       </div>
-    </div>
+    </main>
 
   	{% include page-footer.html %}
 

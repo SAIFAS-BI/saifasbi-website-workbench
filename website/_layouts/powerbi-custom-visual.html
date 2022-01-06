@@ -9,8 +9,7 @@
     {{ page.title }}
   </title>
 
-
-  <body class="details-body">
+  <body>
 
     <header>
       {% include page-header-logo.html %}
@@ -18,9 +17,9 @@
       {% include page-header-path-item.html link=page.pageUrl pageName=page.currentCanvasPathName %}
     </header>
 
-    <div style="height: 100%;">
+    <main>
       {% include canvas-powerbi-custom-visual.html imageUrl=page.imageUrl cost=page.cost mainFeaturesDescription=page.mainFeaturesDescription mostPopularUseCasesDescription=page.mostPopularUseCasesDescription %}
-    </div>
+    </main>
 
     {% include page-footer.html %}
 
