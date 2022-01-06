@@ -6,18 +6,12 @@ pageName: 'Power BI area'
 pageHeadline: 'According to our team experience we provide'
 #engineering-activities
 ---
-
-<div class="power-bi__buttons-container">
-  <a href='./custom-visuals' class="power-bi__buttons-container--btn">
-    Custom visuals development
-    <i class="fas fa-file-alt fa-3x"></i>
-    <div class="power-bi__buttons-container--tag">Type script</div>
-  </a>
-  <a href='' class="power-bi__buttons-container--btn">Data visualization</a>
-  <a href='' class="power-bi__buttons-container--btn">Data modelling & data architecture</a>
-  <a href='' class="power-bi__buttons-container--btn">ETL Pipeline</a>
-  <a href='' class="power-bi__buttons-container--btn">Data analysis & data analytics</a>
-  <a href='' class="power-bi__buttons-container--btn">Solutions deployment</a>
-  <a href='' class="power-bi__buttons-container--btn">DevOps</a>
-  <a href='' class="power-bi__buttons-container--btn">Power Apps development</a>
+<div class="circle-container">
+  <div style="max-width: 800px; display: flex; flex-wrap: wrap; justify-content: center;">
+  <a class="circle" href="./custom-visuals/">Visuals</a>
+  <a class="circle">Reports</a>
+  <a class="circle">Scripts</a>
+  <a class="circle">Apps</a>
+  </div>
+  <a class="btn" href="./engineering-activities/">Engineering activities</a>
 </div>

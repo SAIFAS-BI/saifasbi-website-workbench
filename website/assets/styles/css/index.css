@@ -882,7 +882,7 @@ header > a:visited {
   max-height: 700px;
 	left: 50%;
 	transform: translate(-50%, 0);
-	padding: 20px 20px 20px;
+	padding: 0 20px 20px 20px;
 	background-color: #fff;
 	border-radius: 5px;
   overflow: auto;
@@ -893,6 +893,37 @@ header > a:visited {
   position: absolute;
   right: 10px;
   top: 10px;
+  -webkit-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -moz-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -o-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -ms-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  cursor: pointer;
+}
+
+.modal-close:hover {
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
+  background: rgba(200,200,200,0.2);
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+}
+
+.modal-headline {
+  font-size: 22px !important;
 }
 
 /*Form styles*/
@@ -904,11 +935,18 @@ header > a:visited {
   align-items: center;
 }
 
+.form-elem__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  margin: 0 0 20px 0;
+}
+
 .form-elem {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
-  width: 100%;
+  margin: 5px;
 }
 
 .form-elem > input, textarea, select {
@@ -936,6 +974,24 @@ header > a:visited {
   margin-bottom: 3px;
 }
 
+.three-form-elements {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.three-form-elements > .form-elem {
+  display: flex;
+}
+
+.two-form-elements {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.two-form-elements > .form-elem {
+  display: flex;
+}
+
 .form-radio-buttons-container {
   display: flex;
   align-items: center;
@@ -947,6 +1003,69 @@ header > a:visited {
 
 .form-radio-buttons-container > .radio-button-text {
   margin-right: 10px;
+}
+
+.form-current-page {
+  display: none;
+}
+
+.circle-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.circle-container > a {
+  margin-top: 20px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  width: 300px;
+  max-height: 300px;
+  height: 300px;
+  border-radius: 50%;
+  -webkit-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -moz-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -o-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), -ms-transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  cursor: pointer;
+  background: var(--color-grey);
+  color: var(--text-color);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.circle:visited {
+  color: var(--text-color);
+}
+
+.circle:hover {
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
+  background: rgba(200,200,200,0.2);
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
 }
 
 /*Flex styles*/
