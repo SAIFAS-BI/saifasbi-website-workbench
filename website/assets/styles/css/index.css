@@ -325,7 +325,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-grey);
+  border: 2px solid var(--color-grey);
   height: 64px;
   border-radius: 5px;
 }
@@ -872,17 +872,20 @@ header > a:visited {
 }
 
 .modalBody {
+  font-family: var(--main-font-family);
+  color: var(--text-color);
 	position: fixed;
 	display: none;
-	top: 20%;
+	top: 10%;
 	width: 100%;
   max-width: 600px;
+  max-height: 700px;
 	left: 50%;
 	transform: translate(-50%, 0);
-	padding: 10px 20px 20px;
+	padding: 20px 20px 20px;
 	background-color: #fff;
 	border-radius: 5px;
-  margin: 0 20px;
+  overflow: auto;
 }
 
 .modal-close {
@@ -890,6 +893,60 @@ header > a:visited {
   position: absolute;
   right: 10px;
   top: 10px;
+}
+
+/*Form styles*/
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-elem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form-elem > input, textarea, select {
+  height: 36px;
+  border-radius: 5px;
+  border: 2px solid #f0f0f0;
+  background: transparent;
+  color: var(--text-color);
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.form-elem > textarea {
+  padding: 10px;
+  min-height: 100px;
+}
+
+.form-elem > input:active {
+  border: 2px solid var(--text-color);
+}
+
+.form-elem > label {
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.form-radio-buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.form-radio-buttons-container > input {
+  margin-right: 4px;
+}
+
+.form-radio-buttons-container > .radio-button-text {
+  margin-right: 10px;
 }
 
 /*Flex styles*/
