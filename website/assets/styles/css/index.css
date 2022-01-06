@@ -848,6 +848,50 @@ header > a:visited {
   justify-content: flex-start;
 }
 
+.conctact-us-btn {
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.conctact-us-btn > i {
+  margin-right: 8px;
+}
+
+/*Modal styles*/
+
+#modal {
+	display: none;
+	position: fixed;
+	top:0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+  opacity: 0.4;
+}
+
+.modalBody {
+	position: fixed;
+	display: none;
+	top: 20%;
+	width: 100%;
+  max-width: 600px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	padding: 10px 20px 20px;
+	background-color: #fff;
+	border-radius: 5px;
+  margin: 0 20px;
+}
+
+.modal-close {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
 /*Flex styles*/
 
 .flex-direction-column {

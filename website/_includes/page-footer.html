@@ -1,8 +1,11 @@
 <footer>
-
-  <address class="footer__contact-us">
+  <div class="conctact-us-btn">
+    <i class="fas fa-comment fa-2x"></i>
+    Contact us
+  </div>
+  <!-- <address class="footer__contact-us">
     For purchasing any custom visual, please contact: <a style="margin-left: 4px;" href="mailto:bi-support@saifas.org">bi-support@saifas.org</a>
-  </address>
+  </address> -->
   <div class="watermark">
     <div class="socials">
       <a target="_blank" href="https://github.com/saifas-bi">
@@ -22,3 +25,24 @@
   </div>
 
 </footer>
+
+<div id="modal"></div>
+	<div class="modalBody">
+    <i class="fas fa-times fa-lg modal-close"></i>
+    <form action="/assets/scripts/contact.php" method="post">
+    <div class="elem-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+      <label for="email">Your E-mail</label>
+      <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+    </div>
+    <div class="elem-group">
+      <label for="message">Write your message</label>
+      <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+  </form>
+	</div>
+</div>
