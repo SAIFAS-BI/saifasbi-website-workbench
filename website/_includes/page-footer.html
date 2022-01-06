@@ -29,20 +29,67 @@
 <div id="modal"></div>
 	<div class="modalBody">
     <i class="fas fa-times fa-lg modal-close"></i>
-    <form action="/assets/scripts/contact.php" method="post">
-    <div class="elem-group">
-      <label for="name">Your Name</label>
-      <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
-    </div>
-    <div class="elem-group">
-      <label for="email">Your E-mail</label>
-      <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
-    </div>
-    <div class="elem-group">
-      <label for="message">Write your message</label>
-      <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
-    </div>
-    <button type="submit">Send Message</button>
-  </form>
+    <form class="contact-form" action="https://usebasin.com/f/d773310b9def" method="POST">
+      <div class="form-elem">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required>
+      </div>
+      <div class="form-elem">
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required>
+      </div>
+      <div class="form-elem">
+        <label for="organization">Organization</label>
+        <input type="text" id="organization" name="organization" required>
+      </div>
+      <div class="form-elem">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-elem">
+        <label for="country">Country</label>
+        <input type="text" id="country" name="country" required>
+      </div>
+      <div class="form-elem">
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" required>
+      </div>
+      <div class="form-elem">
+        <label for="phone-number">Phone number</label>
+        <input type="tel" id="phone-number" name="phone-number" required>
+      </div>
+      <div class="form-elem">
+        <label for="application-direction">Application direction</label>
+        <select id="application-direction" name="application-direction" required>
+          <option value="support">Support</option>
+          <option value="purchase">Purchase</option>
+        </select>
+      </div>
+      <div class="form-elem">
+        <label for="application-type">Application type</label>
+        <div class="form-radio-buttons-container">
+          <input type="radio" id="question" name="application-type" value="question"></input>
+          <div class="radio-button-text">Question</div>
+          <input type="radio" id="suggestion" name="application-type" value="suggestion"></input>
+          <div class="radio-button-text">Suggestion</div>
+        </div>
+      </div>
+      <div class="form-elem">
+        <label for="application-text">Application text</label>
+        <textarea id="application-text" name="application-text"></textarea>
+      </div>
+      <button class="btn" type="submit">Submit</button>
+      <!-- Имя
+      Фамилия
+      Организация
+      Почта
+      Страна
+      Город
+      Телефон
+      Направление обращения (support, purchase) application direction
+      Тип обращения (вопрос или предложение) радио баттон Application type (question and suggestion)
+      Текст письма application text
+      С какой страницы ушло письмо -->
+    </form>
 	</div>
 </div>
