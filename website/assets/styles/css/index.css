@@ -290,7 +290,7 @@ footer {
 }
 
 .engineering-activities-btn {
-  background: radial-gradient(circle at 0 100%, rgba(0,0,0,0) 150px, #F0F0F0 10px), radial-gradient(circle at 100% 100%, rgba(0,0,0,0) 150px, #F0F0F0 10px), radial-gradient(circle at 100% 0, rgba(0,0,0,0) 150px, #F0F0F0 10px), radial-gradient(circle at 0 0, rgba(0,0,0,0) 150px, #F0F0F0 10px);
+  background: radial-gradient(circle at 0 100%, rgba(0,0,0,0) 150px, #e3e3e3 10px), radial-gradient(circle at 100% 100%, rgba(0,0,0,0) 150px, #e3e3e3 10px), radial-gradient(circle at 100% 0, rgba(0,0,0,0) 150px, #e3e3e3 10px), radial-gradient(circle at 0 0, rgba(0,0,0,0) 150px, #e3e3e3 10px);
   background-position: bottom left, bottom right, top right, top left;
   background-size: 50% 50%;
   background-repeat: no-repeat;
@@ -309,6 +309,15 @@ footer {
   font-size: 20px;
   line-height: 26px;
   cursor: pointer;
+  transition: background .3s;
+}
+
+.engineering-activities-btn:hover {
+  background: radial-gradient(circle at 0 100%, rgba(0,0,0,0) 150px, #f0f0f0 10px), radial-gradient(circle at 100% 100%, rgba(0,0,0,0) 150px, #f0f0f0 10px), radial-gradient(circle at 100% 0, rgba(0,0,0,0) 150px, #f0f0f0 10px), radial-gradient(circle at 0 0, rgba(0,0,0,0) 150px, #f0f0f0 10px);
+  background-position: bottom left, bottom right, top right, top left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  transition: background .3s;
 }
 
 .cards__container {
@@ -1222,6 +1231,11 @@ header > a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+article {
+  margin: 20px;
+  border: 1px solid black;
 }
 
 /*Media requests*/
