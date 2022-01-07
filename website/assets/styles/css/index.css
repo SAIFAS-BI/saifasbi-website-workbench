@@ -67,6 +67,56 @@ header > a:hover:not(:first-child) {
   background-size: 100% 2px;
 }
 
+.home-page__header {
+  justify-content: space-between;
+}
+
+.header-navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header-navbar > a {
+  display: flex;
+  margin-right: 10px;
+  color: var(--color-text);
+  text-decoration: none;
+  background-image: linear-gradient(var(--text-color), var(--text-color));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+.header-navbar > a:last-child {
+  margin-right: 20px;
+}
+
+.header-navbar > a:visited {
+  color: var(--text-color);
+}
+
+.header-navbar > a.active {
+  background-size: 100% 2px;
+}
+
+.home-page__section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 850px;
+  position: relative;
+  margin: 0 20px;
+}
+
+.home-page__section {
+  padding-top: 50px;
+	margin-top: -50px;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+
 iframe {
   flex: 1;
 }
