@@ -67,6 +67,113 @@ header > a:hover:not(:first-child) {
   background-size: 100% 2px;
 }
 
+.home-page__header {
+  justify-content: space-between;
+}
+
+.header-navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header-navbar > a {
+  display: flex;
+  margin-right: 10px;
+  color: var(--color-text);
+  text-decoration: none;
+  background-image: linear-gradient(var(--text-color), var(--text-color));
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s;
+}
+
+.header-navbar > a:last-child {
+  margin-right: 20px;
+}
+
+.header-navbar > a:visited {
+  color: var(--text-color);
+}
+
+.header-navbar > a.active {
+  background-size: 100% 2px;
+}
+
+.home-page__section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 850px;
+  position: relative;
+  margin: 0 20px;
+}
+
+.home-page__section {
+  padding-top: 50px;
+	margin-top: -50px;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+
+.dropdown {
+  display: none;
+  position: relative;
+  height: 100%;
+  align-items: center;
+}
+
+.dropdown:hover .dropdown-btn {
+  background: #dbdbdb;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  right: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.dropdown-content a.active {
+  background: #dbdbdb;
+}
+
+.dropdown-content a:visited {
+  color: var(--text-color);
+}
+
+.dropdown-btn {
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  padding: 0 20px;
+}
+
+.dropdown-btn:hover {
+  background: var(--color-grey);
+}
+
+.dropdown-btn:hover .dropdown-content {
+  display: flex;
+}
+
 iframe {
   flex: 1;
 }
@@ -180,6 +287,28 @@ footer {
 
 .purchase-btn:hover {
   background-color: #55d96b;
+}
+
+.engineering-activities-btn {
+  background: radial-gradient(circle at 0 100%, rgba(0,0,0,0) 150px, #F0F0F0 10px), radial-gradient(circle at 100% 100%, rgba(0,0,0,0) 150px, #F0F0F0 10px), radial-gradient(circle at 100% 0, rgba(0,0,0,0) 150px, #F0F0F0 10px), radial-gradient(circle at 0 0, rgba(0,0,0,0) 150px, #F0F0F0 10px);
+  background-position: bottom left, bottom right, top right, top left;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  display: flex;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 26.5%;
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 26px;
+  cursor: pointer;
 }
 
 .cards__container {
@@ -869,6 +998,7 @@ header > a:visited {
 	width: 100%;
 	background-color: black;
   opacity: 0.4;
+  z-index: 10;
 }
 
 .modalBody {
@@ -886,6 +1016,7 @@ header > a:visited {
 	background-color: #fff;
 	border-radius: 5px;
   overflow: auto;
+  z-index: 11;
 }
 
 .modal-close {
@@ -1023,6 +1154,7 @@ header > a:visited {
 }
 
 .circle {
+  margin: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1051,6 +1183,7 @@ header > a:visited {
   color: var(--text-color);
   font-size: 20px;
   text-decoration: none;
+  z-index: 2;
 }
 
 .circle:visited {
@@ -1180,5 +1313,41 @@ header > a:visited {
   #lightgallery > a > img {
     width: 100%;
     height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-navbar {
+    display: none;
+  }
+  .dropdown {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 680px) {
+  .circle-container {
+    max-width: 500px;
+  }
+  .circle {
+    width: 200px;
+    height: 200px;
+    font-size: 15px;
+  }
+  .engineering-activities-btn {
+    transform: scale(0.7);
+    top: 15.5%;
+  }
+}
+
+@media (max-width: 460px) {
+  .engineering-activities-btn {
+    transform: scale(0.5);
+    top: 5.5%;
+  }
+  .circle {
+    width: 150px;
+    height: 150px;
+    font-size: 12px;
   }
 }
