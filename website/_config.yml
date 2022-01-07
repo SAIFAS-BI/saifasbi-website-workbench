@@ -16,3 +16,5 @@ collections:
   - collection-powerbi-engineering-activities
   - collection-powerbi-custom-visuals
   - collection-powerbi-reports
+exclude:
+- docker-compose.yml
