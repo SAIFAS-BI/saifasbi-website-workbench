@@ -117,6 +117,63 @@ header > a:hover:not(:first-child) {
 	background-clip: content-box;
 }
 
+.dropdown {
+  display: none;
+  position: relative;
+  height: 100%;
+  align-items: center;
+}
+
+.dropdown:hover .dropdown-btn {
+  background: #dbdbdb;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  right: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.dropdown-content a.active {
+  background: #dbdbdb;
+}
+
+.dropdown-content a:visited {
+  color: var(--text-color);
+}
+
+.dropdown-btn {
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  padding: 0 20px;
+}
+
+.dropdown-btn:hover {
+  background: var(--color-grey);
+}
+
+.dropdown-btn:hover .dropdown-content {
+  display: flex;
+}
+
 iframe {
   flex: 1;
 }
@@ -1230,5 +1287,14 @@ header > a:visited {
   #lightgallery > a > img {
     width: 100%;
     height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-navbar {
+    display: none;
+  }
+  .dropdown {
+    display: inline-block;
   }
 }
