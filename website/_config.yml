@@ -85,29 +85,55 @@ powerBIReportsTitle: Power BI reportsTTT
 powerBIReportsUrl: "/powerbi/reports"
 
 collections:
-  collection-powerbi-engineering-activities:
-  collection-powerbi-custom-visuals:
-  collection-powerbi-reports:
-
-  news:
-    permalink: "/news/:year/:month/:day/:title/"
+  powerbi-engineering-activities:
     output: true
-    
-    
+  powerbi-custom-visuals:
+    output: true
+  powerbi-reports:
+    output: true
+  news:
+    output: true
+
 defaults:
-  - 
+  -
+    scope:
+      path: _powerbi-engineering-activities
+      type: powerbi-engineering-activities
+    values:
+      layout:
+      category: someitems1
+      permalink: "/press-updates/:collection/:categories/:title/"
+  -
+    scope:
+      path: _powerbi-custom-visuals
+      type: powerbi-custom-visuals
+    values:
+      layout:
+      category: someitems2
+      permalink: "/press-updates/:collection/:categories/:title/"
+  -
+    scope:
+      path: _powerbi-reports
+      type: powerbi-reports
+    values:
+      layout:
+      category: someitems3
+      permalink: "/press-updates/:collection/:categories/:title/"
+  -
     scope:
       path: _news
       type: news
     values:
       layout: news-item
+      category: hotnews
+      permalink: /press-updates/:collection/:categories/:year/:month/:day/:title/
 
 
 # feed:
 #   categories:
 #     - powerbi-custom-visual
-    
-      
+
+
 sass:
   sass_dir: _sass
 
@@ -119,11 +145,11 @@ keep_files:
   - assets
 
 
-includes_dir                  : ./_includes/
+includes_dr                  : ./_includes/
 layouts_dir                   : ./_layouts/
 plugins_dir                   : ./_plugins/
 layouts_dir                   : ./_layouts/
-collections_dir               : ./
+collections_dir               : ./jekyll-stack/mycollections/
 
 
 # Include

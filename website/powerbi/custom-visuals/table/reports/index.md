@@ -11,7 +11,7 @@ currentCanvasParentItemPathUrl: '../'
 currentCanvasParentItemParentArrayPathName: 'Power BI custom visuals'
 currentCanvasParentItemParentArrayPathUrl: '../../'
 ---
-{% for report in site.collection-powerbi-reports %}
+{% for report in site.powerbi-reports %}
 {% if report.customVisual == 'table' %}
   {% include card-powerbi-report.html %}
 {% endif %}
