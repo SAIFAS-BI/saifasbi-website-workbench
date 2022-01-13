@@ -1,5 +1,6 @@
 ---
 layout: powerbi-report
+permalink: /powerbi/custom-visuals/table/reports/01/
 title: 'SAIFAS BI | Power BI show case sample report for Power BI custom visual - SAIFAS Table'
 pageUrl: './'
 pageName: 'Company employees'

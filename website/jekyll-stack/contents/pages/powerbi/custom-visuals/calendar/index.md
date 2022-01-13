@@ -1,5 +1,6 @@
 ---
 layout: powerbi-custom-visual
+permalink: /powerbi/custom-visuals/calendar/
 title: 'SAIFAS BI | Power BI custom visual - SAIFAS Calendar'
 ---
 <div class="details__card">

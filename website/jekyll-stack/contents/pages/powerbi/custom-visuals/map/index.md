@@ -1,5 +1,6 @@
 ---
 layout: powerbi-custom-visual
+permalink: /powerbi/custom-visuals/map/
 title: 'SAIFAS BI | Power BI custom visual - SAIFAS Map'
 ---
 <div class="details__card">

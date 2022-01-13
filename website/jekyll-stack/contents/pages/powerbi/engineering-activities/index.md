@@ -1,5 +1,6 @@
 ---
 layout: engineering-activities
+permalink: /powerbi/engineering-activities/
 title: 'SAIFAS BI | Power BI area'
 pageUrl: './'
 pageName: 'Power BI area'

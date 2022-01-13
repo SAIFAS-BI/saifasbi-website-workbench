@@ -1,7 +1,7 @@
 ---
 layout: news
-title: News
-permalink: /news/
+title: Press
+permalink: /press/
 ---
 {% for post in site.news -%}
   {% include news-item-archive.html -%}

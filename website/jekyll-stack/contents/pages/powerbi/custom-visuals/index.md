@@ -1,5 +1,6 @@
 ---
 layout: powerbi-custom-visuals
+permalink: /powerbi/custom-visuals/
 title: 'SAIFAS BI | Power BI custom visuals'
 pageUrl: './'
 pageName: 'Power BI custom visuals'

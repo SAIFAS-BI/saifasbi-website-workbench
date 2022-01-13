@@ -5,6 +5,7 @@ pageUrl: './'
 pageName: 'Power BI area'
 pageHeadline: 'According to our team experience we provide'
 #engineering-activities
+permalink: /powerbi/index.html
 ---
 <div class="circle-container">
   <div style="max-width: 800px; display: flex; flex-wrap: wrap; justify-content: center; position: relative;">

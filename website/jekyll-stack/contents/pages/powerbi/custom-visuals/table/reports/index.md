@@ -1,5 +1,6 @@
 ---
 layout: powerbi-reports
+permalink: /powerbi/custom-visuals/table/reports/
 title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual - SAIFAS Table'
 pageUrl: './'
 pageName: 'Power BI reports'

@@ -1,6 +1,7 @@
 ---
 layout: powerbi-reports
-title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual - SAIFAS Calendar'
+permalink: /powerbi/custom-visuals/map/reports/
+title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual - SAIFAS Map'
 ---
 <div class="card">
   <div class="card__title">
@@ -10,7 +11,7 @@ title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual 
     <img src="/assets/graphics/images/content/empty/empty-image-224px-224px.png" alt="">
   </div>
   <div class="card__description">
-    Business scheduler for meetings planning
+    World people population by countries
   </div>
   <div class="card__buttons-container">
     <a class="btn" href="./01/">Details</a>
