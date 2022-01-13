@@ -145,7 +145,7 @@ keep_files:
 includes_dr                  : ./jekyll-stack/templates/_includes/
 layouts_dir                   : ./jekyll-stack/templates/_layouts/
 #plugins_dir                   : ./_plugins/
-collections_dir               : ./jekyll-stack/collections/
+collections_dir               : ./jekyll-stack/contents/collections/
 
 
 # Include
