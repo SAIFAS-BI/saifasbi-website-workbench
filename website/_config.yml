@@ -12,6 +12,52 @@ powerBIcustomVisualsUrl: '/powerbi/custom-visuals'
 powerBIReportsTitle: 'Power BI reports'
 powerBIReportsUrl: '/powerbi/reports'
 collections:
-  - collection-powerbi-engineering-activities
-  - collection-powerbi-custom-visuals
-  - collection-powerbi-reports
+  collection-powerbi-engineering-activities:
+  collection-powerbi-custom-visuals:
+  collection-powerbi-reports:
+  news:
+    permalink: "/news/:year/:month/:day/:title/"
+    output: true
+defaults:
+  - scope:
+      path: _news
+      type: news
+    values:
+      layout: news-item
+sass:
+  sass_dir: _sass
+
+
+source                        : ./
+
+destination                   : ./_builld-website-static/
+keep_files:
+  - assets
+
+includes_dir                  : ./_includes/
+layouts_dir                   : ./_layouts/
+plugins_dir                   : ./_plugins/
+layouts_dir                   : ./_layouts/
+collections_dir               : ./
+
+include:
+  - assets
+
+exclude:
+- Gemfile*
+- Gemfile.lock
+- docker-compose.yml
+- .sass-cache/
+# - .jekyll-cache/
+# - Rakefile
+# - gemfiles/
+# - node_modules/
+# - vendor/bundle/
+# - vendor/cache/
+# - vendor/gems/
+# - vendor/ruby/
+# - README.md
+# - changelog.md
+# - "*.Rmd"
+# - .travis.yml
+# - node_modules/uglifier/index.js
