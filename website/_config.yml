@@ -50,13 +50,6 @@ social_media_github_url: "https://github.com/saifas-bi"
 highlighter: none
 
 
-# sass:
-#   style: compressed
-
-
-# theme:
-
-
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -135,7 +128,11 @@ defaults:
 
 
 sass:
-  sass_dir: _sass
+  sass_dir: ./jekyll-stack/assets/styles/_sass
+# style: compressed
+
+
+# theme:
 
 
 source                        : ./
@@ -157,6 +154,9 @@ collections_dir               : ./jekyll-stack/mycollections/
 #
 include:
   - assets
+
+assets_root_path: /assets
+assets_styles_path: /assets/styles/css/styles.css
 
 
 # Exclude
