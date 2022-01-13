@@ -142,10 +142,9 @@ keep_files:
   - assets
 
 
-includes_dr                  : ./_includes/
-layouts_dir                   : ./_layouts/
-plugins_dir                   : ./_plugins/
-layouts_dir                   : ./_layouts/
+includes_dr                  : ./jekyll-stack/templates/_includes/
+layouts_dir                   : ./jekyll-stack/templates/_layouts/
+#plugins_dir                   : ./_plugins/
 collections_dir               : ./jekyll-stack/collections/
 
 
