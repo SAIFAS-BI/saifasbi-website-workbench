@@ -10,16 +10,69 @@
 
   <body>
 
-    <header>
+    <header class='home-page__header'>
       {% include page-header-logo.html %}
+      <nav class="header-navbar">
+        <a href="#experience">Experience</a>
+        <a href="#consulting">Consulting</a>
+        <a href="#portfolio" class="">Portfolio</a>
+        <a href="#aboutus">About us</a>
+      </nav>
+      <div class="dropdown">
+        <div class="dropdown-btn">Menu</div>
+        <div class="dropdown-content">
+          <a href="#experience">Experience</a>
+          <a href="#consulting">Consulting</a>
+          <a href="#portfolio" class="">Portfolio</a>
+          <a href="#aboutus">About us</a>
+        </div>
+      </div>
   	</header>
 
     <main>
-      {% include page-headline.html headline=page.headline %}
-  	  <div class="chart-container">
-  	    <div id="container" style="max-width: 600px; margin: 0 auto;"></div>
-        {{ content }}
-  	  </div>
+      <section id='experience' class='home-page__section'>
+        {% include page-headline.html headline=page.headline %}
+    	  <div class="chart-container">
+    	    <div id="container" style="max-width: 600px; margin: 0 auto;"></div>
+    	  </div>
+      </section>
+      <section id='consulting' class='home-page__section'>
+        {% include page-headline.html headline='Consulting' %}
+        <div class='section__body'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis suscipit urna, vel tincidunt elit mollis vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum, nulla at molestie varius, dui sapien tincidunt elit, eget sollicitudin ligula tortor vel leo. Nunc vestibulum luctus pulvinar. Vivamus eleifend nibh in ipsum sollicitudin malesuada. Maecenas pharetra lacinia ligula, id maximus felis mattis ac. Etiam quis urna faucibus, blandit augue egestas, vestibulum magna. Nullam viverra consequat lectus in commodo. Aenean tincidunt mi sit amet volutpat placerat. Ut nibh eros, gravida sed luctus at, dapibus vel dui. Nulla venenatis eros sit amet elementum interdum. Donec sollicitudin placerat lorem. Nunc hendrerit porttitor nisl, ac feugiat enim bibendum ac.
+
+          Aliquam convallis, dolor in finibus ornare, ligula justo tempor risus, in convallis justo purus ac augue. Praesent ut nibh in sapien rhoncus vestibulum. Aenean eu elit id libero aliquet vestibulum. Proin suscipit in augue a gravida. Sed tempor sit amet metus et posuere. Nam hendrerit justo est, ut viverra mauris scelerisque ac. Cras iaculis, mauris pulvinar dignissim consequat, justo metus egestas metus, et sagittis arcu magna id massa. Donec tempus rhoncus imperdiet. Ut hendrerit volutpat ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam quis lectus rutrum, maximus sapien et, condimentum sapien. Quisque porttitor justo finibus eros volutpat, at cursus nisi varius. Donec porttitor, mauris a consectetur accumsan, mi odio porttitor tortor, non varius sapien dui nec justo.
+
+          Nam vel ante ullamcorper, scelerisque nulla at, facilisis ligula. Phasellus commodo vehicula mauris sed volutpat. Praesent id ligula nec augue tempus accumsan nec non sapien. Suspendisse potenti. Integer ullamcorper auctor ex, ut consequat neque euismod eget. Sed gravida augue nunc. Morbi pellentesque ut sem at aliquam. Maecenas dapibus ante velit, in luctus ligula semper id.
+
+          Donec sodales bibendum vestibulum. Fusce nec scelerisque mi. Pellentesque vestibulum vulputate eros, vitae vestibulum lorem scelerisque sit amet. Praesent eu enim nec tellus bibendum viverra eu vitae felis. Integer elementum dolor vitae ultrices maximus. Praesent cursus dui ex, eu rhoncus tellus finibus ut. Maecenas consectetur posuere nisi, quis ullamcorper tellus consectetur eget. Suspendisse nec arcu ex. Proin pulvinar blandit consequat. Quisque luctus sed nisl sit amet fringilla. Mauris purus urna, rhoncus ut felis tempor, porta aliquam elit. Donec a dignissim quam, non vehicula neque. Sed sit amet justo mauris. Nam eleifend sodales purus, at pulvinar lacus luctus at.
+        </div>
+      </section>
+      <section id='portfolio' class='home-page__section'>
+        {% include page-headline.html headline='Portfolio' %}
+        <div class='section__body'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis suscipit urna, vel tincidunt elit mollis vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum, nulla at molestie varius, dui sapien tincidunt elit, eget sollicitudin ligula tortor vel leo. Nunc vestibulum luctus pulvinar. Vivamus eleifend nibh in ipsum sollicitudin malesuada. Maecenas pharetra lacinia ligula, id maximus felis mattis ac. Etiam quis urna faucibus, blandit augue egestas, vestibulum magna. Nullam viverra consequat lectus in commodo. Aenean tincidunt mi sit amet volutpat placerat. Ut nibh eros, gravida sed luctus at, dapibus vel dui. Nulla venenatis eros sit amet elementum interdum. Donec sollicitudin placerat lorem. Nunc hendrerit porttitor nisl, ac feugiat enim bibendum ac.
+
+          Aliquam convallis, dolor in finibus ornare, ligula justo tempor risus, in convallis justo purus ac augue. Praesent ut nibh in sapien rhoncus vestibulum. Aenean eu elit id libero aliquet vestibulum. Proin suscipit in augue a gravida. Sed tempor sit amet metus et posuere. Nam hendrerit justo est, ut viverra mauris scelerisque ac. Cras iaculis, mauris pulvinar dignissim consequat, justo metus egestas metus, et sagittis arcu magna id massa. Donec tempus rhoncus imperdiet. Ut hendrerit volutpat ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam quis lectus rutrum, maximus sapien et, condimentum sapien. Quisque porttitor justo finibus eros volutpat, at cursus nisi varius. Donec porttitor, mauris a consectetur accumsan, mi odio porttitor tortor, non varius sapien dui nec justo.
+
+          Nam vel ante ullamcorper, scelerisque nulla at, facilisis ligula. Phasellus commodo vehicula mauris sed volutpat. Praesent id ligula nec augue tempus accumsan nec non sapien. Suspendisse potenti. Integer ullamcorper auctor ex, ut consequat neque euismod eget. Sed gravida augue nunc. Morbi pellentesque ut sem at aliquam. Maecenas dapibus ante velit, in luctus ligula semper id.
+
+          Donec sodales bibendum vestibulum. Fusce nec scelerisque mi. Pellentesque vestibulum vulputate eros, vitae vestibulum lorem scelerisque sit amet. Praesent eu enim nec tellus bibendum viverra eu vitae felis. Integer elementum dolor vitae ultrices maximus. Praesent cursus dui ex, eu rhoncus tellus finibus ut. Maecenas consectetur posuere nisi, quis ullamcorper tellus consectetur eget. Suspendisse nec arcu ex. Proin pulvinar blandit consequat. Quisque luctus sed nisl sit amet fringilla. Mauris purus urna, rhoncus ut felis tempor, porta aliquam elit. Donec a dignissim quam, non vehicula neque. Sed sit amet justo mauris. Nam eleifend sodales purus, at pulvinar lacus luctus at.
+        </div>
+      </section>
+      <section id='aboutus' class='home-page__section'>
+        {% include page-headline.html headline='About us' %}
+        <div class='section__body'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis suscipit urna, vel tincidunt elit mollis vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum, nulla at molestie varius, dui sapien tincidunt elit, eget sollicitudin ligula tortor vel leo. Nunc vestibulum luctus pulvinar. Vivamus eleifend nibh in ipsum sollicitudin malesuada. Maecenas pharetra lacinia ligula, id maximus felis mattis ac. Etiam quis urna faucibus, blandit augue egestas, vestibulum magna. Nullam viverra consequat lectus in commodo. Aenean tincidunt mi sit amet volutpat placerat. Ut nibh eros, gravida sed luctus at, dapibus vel dui. Nulla venenatis eros sit amet elementum interdum. Donec sollicitudin placerat lorem. Nunc hendrerit porttitor nisl, ac feugiat enim bibendum ac.
+
+          Aliquam convallis, dolor in finibus ornare, ligula justo tempor risus, in convallis justo purus ac augue. Praesent ut nibh in sapien rhoncus vestibulum. Aenean eu elit id libero aliquet vestibulum. Proin suscipit in augue a gravida. Sed tempor sit amet metus et posuere. Nam hendrerit justo est, ut viverra mauris scelerisque ac. Cras iaculis, mauris pulvinar dignissim consequat, justo metus egestas metus, et sagittis arcu magna id massa. Donec tempus rhoncus imperdiet. Ut hendrerit volutpat ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam quis lectus rutrum, maximus sapien et, condimentum sapien. Quisque porttitor justo finibus eros volutpat, at cursus nisi varius. Donec porttitor, mauris a consectetur accumsan, mi odio porttitor tortor, non varius sapien dui nec justo.
+
+          Nam vel ante ullamcorper, scelerisque nulla at, facilisis ligula. Phasellus commodo vehicula mauris sed volutpat. Praesent id ligula nec augue tempus accumsan nec non sapien. Suspendisse potenti. Integer ullamcorper auctor ex, ut consequat neque euismod eget. Sed gravida augue nunc. Morbi pellentesque ut sem at aliquam. Maecenas dapibus ante velit, in luctus ligula semper id.
+
+          Donec sodales bibendum vestibulum. Fusce nec scelerisque mi. Pellentesque vestibulum vulputate eros, vitae vestibulum lorem scelerisque sit amet. Praesent eu enim nec tellus bibendum viverra eu vitae felis. Integer elementum dolor vitae ultrices maximus. Praesent cursus dui ex, eu rhoncus tellus finibus ut. Maecenas consectetur posuere nisi, quis ullamcorper tellus consectetur eget. Suspendisse nec arcu ex. Proin pulvinar blandit consequat. Quisque luctus sed nisl sit amet fringilla. Mauris purus urna, rhoncus ut felis tempor, porta aliquam elit. Donec a dignissim quam, non vehicula neque. Sed sit amet justo mauris. Nam eleifend sodales purus, at pulvinar lacus luctus at.
+        </div>
+      </section>
+      {{ content }}
     </main>
 
 	 {% include page-footer.html %}
