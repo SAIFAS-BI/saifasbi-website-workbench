@@ -137,9 +137,9 @@ sass:
 
 source                        : ./
 
-destination                   : ./_builld-website-static/
-keep_files:
-  - assets
+destination                   : ./_builld-website-static/ # need to move it to "../"
+# keep_files:
+#   - assets
 
 
 # includes_dr                   : ./jekyll-stack/templates/_includes/ #doesn't support by jekyll
@@ -154,8 +154,8 @@ collections_dir               : ./jekyll-stack/contents/collections/
 include:
   - assets
 
-assets_root_path: /assets/
-assets_styles_path: /assets/styles/css/styles.css
+assets_root_path: /jekyll-stack/assets/ #todo: see ./assets/styles/css/readme.md
+assets_styles_path: /jekyll-stack/assets/styles/styles.css #todo: see ./assets/styles/css/readme.md
 
 contents_root_path: /jekyll-stack/contents/
 contents_pages_path: /jekyll-stack/contents/pages/
@@ -183,6 +183,9 @@ exclude:
 # - vendor/gems/
 # - vendor/ruby/
 # - README.md
+- /assets/styles/css/readme.md
+- /assets/scripts/js/readme.md
+- /assets/graphics/fonts/readme.md
 # - changelog.md
 # - "*.Rmd"
 # - .travis.yml

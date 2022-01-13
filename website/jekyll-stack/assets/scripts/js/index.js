@@ -1,3 +1,5 @@
+/// preloader
+
 window.onload = function () {
   document.body.classList.add('loaded_hiding');
   window.setTimeout(function () {
@@ -5,6 +7,9 @@ window.onload = function () {
     document.body.classList.remove('loaded_hiding');
   }, 500);
 }
+
+
+/// contact form
 
 $(document).ready(function(){
 	$('.conctact-us-btn').on('click', function(e){
@@ -20,7 +25,8 @@ $(document).ready(function(){
 	});
 });
 
-///navbar
+
+/// navbar
 
 $(window).scroll(function(){
  var $sections = $('section');
