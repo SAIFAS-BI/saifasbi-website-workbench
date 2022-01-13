@@ -128,7 +128,7 @@ defaults:
 
 
 sass:
-  sass_dir: ./jekyll-stack/assets/styles/_sass
+  sass_dir: ./jekyll-stack/assets/styles/_sass/
 # style: compressed
 
 
@@ -142,7 +142,7 @@ keep_files:
   - assets
 
 
-includes_dr                  : ./jekyll-stack/templates/_includes/
+# includes_dr                   : ./jekyll-stack/templates/_includes/ #doesn't support by jekyll
 layouts_dir                   : ./jekyll-stack/templates/_layouts/
 #plugins_dir                   : ./_plugins/
 collections_dir               : ./jekyll-stack/contents/collections/
@@ -154,9 +154,11 @@ collections_dir               : ./jekyll-stack/contents/collections/
 include:
   - assets
 
-assets_root_path: /assets
+assets_root_path: /assets/
 assets_styles_path: /assets/styles/css/styles.css
 
+contents_root_path: /jekyll-stack/contents/
+contents_pages_path: /jekyll-stack/contents/pages/
 
 # Exclude
 # Exclude from processing.
