@@ -146,7 +146,7 @@ includes_dr                  : ./_includes/
 layouts_dir                   : ./_layouts/
 plugins_dir                   : ./_plugins/
 layouts_dir                   : ./_layouts/
-collections_dir               : ./jekyll-stack/mycollections/
+collections_dir               : ./jekyll-stack/collections/
 
 
 # Include
