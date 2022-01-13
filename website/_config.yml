@@ -1,29 +1,113 @@
-#theme:
+# Site Info and Build settings
+---
+name: saifas-bi-website
+version: 0.5.0
+lang: en_US
+author: SAIFAS
+email: info@saifas.org
+about: SAIFAS BI website
+copyright: © SAIFAS
+
+
+repository: "https://github.com/SAIFAS-BI/SAIFAS-BI.github.io"
+
+
 title: SAIFAS BI
-description: SAIFAS BI Projects
-url: https://saifas-bi.github.io
-author: SAIFAS BI
-google_analytics: UA-[]
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+url: https://saifas-bi.github.io # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+
+
+logo: "/assets/graphics/images/domain/saifas-bi/logos/saifas-brand-logo-star-theme-blue-black-276px-269px.png"
+favicon: "/assets/graphics/images/domain/saifas-bi/icons/fav-icons/saifas-brand-logo-star-theme-blue-black-256px-256px.ico"
+
+
+timezone: Europe/Moscow
+
+
+google_analytics: UA-[-]
+google_site_verification: [-]
+
+
+# social media id - usernames/groupnames
+
+social_media_facebook_handle: saifascom
+social_media_facebook_url : "https://www.facebook.com/saifascom"
+
+social_media_linkedin_handle: saifas
+social_media_linkedin_url : "https://www.linkedin.com/company/saifas/"
+
+social_media_twitter_handle: saifascom
+social_media_twittern_url : "https://twitter.com/saifascom"
+
+social_media_github_handle: saifas-bi
+social_media_github_url: "https://github.com/saifas-bi"
+
+
 highlighter: none
+
+
+# sass:
+#   style: compressed
+
+
+# theme:
+
+
 plugins:
   - jekyll-seo-tag
-powerBIcustomVisualsTitle: 'Power BI custom visuals'
-powerBIcustomVisualsUrl: '/powerbi/custom-visuals'
-powerBIReportsTitle: 'Power BI reports'
-powerBIReportsUrl: '/powerbi/reports'
+  - jekyll-sitemap
+  # - jekyll-vcard
+  # - jekyll-minifier
+  # - jekyll-remote-theme
+  # - jekyll-ga
+  # - jekyll-analytics
+  # - jekyll-redirect-from
+  # - jekyll-compose
+  # - jekyll-archives
+  # - jekyll-scholar
+  # - jekyll-feed
+  # - jekyll-gensocial
+  # - jekyll-onebox
+  # - jekyll-mentions
+  # - jekyll-paginate
+  # - jekyll-paginate-v2
+  # - github-metadata
+  # - jekyll-loading-lazy
+
+
+powerBIcustomVisualsTitle: Power BI custom visuals
+powerBIcustomVisualsUrl: "/powerbi/custom-visuals"
+powerBIReportsTitle: Power BI reportsTTT
+powerBIReportsUrl: "/powerbi/reports"
+
 collections:
   collection-powerbi-engineering-activities:
   collection-powerbi-custom-visuals:
   collection-powerbi-reports:
+
   news:
     permalink: "/news/:year/:month/:day/:title/"
     output: true
+    
+    
 defaults:
-  - scope:
+  - 
+    scope:
       path: _news
       type: news
     values:
       layout: news-item
+
+
+# feed:
+#   categories:
+#     - powerbi-custom-visual
+    
+      
 sass:
   sass_dir: _sass
 
@@ -34,15 +118,30 @@ destination                   : ./_builld-website-static/
 keep_files:
   - assets
 
+
 includes_dir                  : ./_includes/
 layouts_dir                   : ./_layouts/
 plugins_dir                   : ./_plugins/
 layouts_dir                   : ./_layouts/
 collections_dir               : ./
 
+
+# Include
+# Include to processing.
+#
 include:
   - assets
 
+
+# Exclude
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
 exclude:
 - Gemfile*
 - Gemfile.lock

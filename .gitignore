@@ -1,3 +1,5 @@
- /builld-website-static
+/builld-website-static
 /website/_builld-website-static
 /website/.sass-cache
+/website/Gemfile.lock
+
