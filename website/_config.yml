@@ -49,6 +49,8 @@ social_media_github_url: "https://github.com/saifas-bi"
 
 highlighter: none
 
+theme: jekyll-theme-saifas
+
 
 plugins:
   - jekyll-seo-tag
@@ -154,8 +156,8 @@ collections_dir               : ./jekyll-stack/contents/collections/
 include:
   - assets
 
-assets_root_path: /jekyll-stack/assets/ #todo: see ./assets/styles/css/readme.md
-assets_styles_path: /jekyll-stack/assets/styles/styles.css #todo: see ./assets/styles/css/readme.md
+assets_root_path: /assets/ #todo: see ./assets/styles/css/readme.md
+assets_styles_path: /assets/css/styles.css #todo: see ./assets/styles/css/readme.md
 
 contents_root_path: /jekyll-stack/contents/
 contents_pages_path: /jekyll-stack/contents/pages/
