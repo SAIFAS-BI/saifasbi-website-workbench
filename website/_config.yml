@@ -82,12 +82,6 @@ powerBIReportsTitle: Power BI reportsTTT
 powerBIReportsUrl: "/powerbi/reports"
 
 collections:
-  powerbi-engineering-activities:
-    output: true
-  powerbi-custom-visuals:
-    output: true
-  powerbi-reports:
-    output: true
   news:
     output: true
 
