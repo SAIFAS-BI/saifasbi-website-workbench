@@ -14,6 +14,6 @@ currentCanvasParentItemParentArrayPathUrl: '../../'
 ---
 {% for report in site.powerbi-reports %}
 {% if report.customVisual == 'table' %}
-  {% include card-powerbi-report.html %}
+  {% include powerbi/report/card.html %}
 {% endif %}
 {% endfor %}

@@ -7,5 +7,5 @@ pageName: 'Power BI custom visuals'
 headline: 'Our team has developed next Power BI custom visuals'
 ---
 {% for pbi-cv in site.powerbi-custom-visuals %}
-  {% include card-powerbi-custom-visual.html %}
+  {% include powerbi/custom-visual/card.html %}
 {% endfor %}
