@@ -1,6 +1,6 @@
 ---
 layout: powerbi-report-in-iframe
-permalink: /powerbi/custom-visuals/table/reports/01/published/
+permalink: /powerbi/reports/company-employees/published/
 title: 'SAIFAS BI | SAIFAS Table v.1.1.0 - sample-report v.1.0.0'
 pageUrl: './'
 pageName: 'Deployed iframe'

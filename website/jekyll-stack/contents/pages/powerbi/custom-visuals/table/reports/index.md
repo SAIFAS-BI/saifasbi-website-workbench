@@ -14,7 +14,7 @@ currentCanvasParentItemParentArrayPathUrl: '../../'
 ---
 {% for report_hash in site.data.powerbi.reports %}
 {% assign report = report_hash[1] %}
-{% if report.customVisual == 'table' %}
+{% if report.relationToCustomVisuals contains 'table' %}
   {% include powerbi/report/card.html %}
 {% endif %}
 {% endfor %}

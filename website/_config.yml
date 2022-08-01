@@ -78,7 +78,7 @@ plugins:
 
 powerBIcustomVisualsTitle: Power BI custom visuals
 powerBIcustomVisualsUrl: "/powerbi/custom-visuals"
-powerBIReportsTitle: Power BI reportsTTT
+powerBIReportsTitle: Power BI reports
 powerBIReportsUrl: "/powerbi/reports"
 
 collections:

@@ -1,5 +1,5 @@
 ---
-layout: powerbi-custom-visuals
+layout: powerbi-cards-layout
 permalink: /powerbi/custom-visuals/
 title: 'SAIFAS BI | Power BI custom visuals'
 pageUrl: './'

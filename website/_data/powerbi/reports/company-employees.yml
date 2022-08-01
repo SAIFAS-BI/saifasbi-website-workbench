@@ -1,8 +1,8 @@
 title:  Company employees
 description: Power BI report
 link:
-detailsLink: ./01/
-embeddedLink: ./01/embedded/
-publishedLink: ./01/published/
+detailsLink: /powerbi/reports/company-employees/
+embeddedLink: /powerbi/reports/company-employees/embedded/
+publishedLink: /powerbi/reports/company-employees/published/
 image: /assets/graphics/images/content/saifas-bi-powerbi-reports/saifas-bi-pbi-report-company-employees-300px-300px.png
-customVisual: table
+relationToCustomVisuals: [table]

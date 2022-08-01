@@ -1,12 +1,12 @@
 ---
 layout: powerbi-report
-permalink: /powerbi/custom-visuals/table/reports/01/
+permalink: /powerbi/reports/company-employees
 title: 'SAIFAS BI | Power BI show case sample report for Power BI custom visual - SAIFAS Table'
 pageUrl: './'
 pageName: 'Company employees'
 currentVisualPathName: 'Table'
-currentVisualPathUrl: '/powerbi/custom-visuals/table/'
-currentVisualReportsUrl: '/powerbi/custom-visuals/table/reports/'
+currentVisualPathUrl: '/powerbi/table/'
+currentVisualReportsUrl: '/powerbi/reports/'
 currentReportPathName: 'Company employees'
 currentReportPathUrl: './'
 ---
@@ -19,6 +19,10 @@ currentReportPathUrl: './'
       <div class='left-column__title'>Details</div>
       <a class='btn disabled' href='./embedded'>Embedded</a>
       <a class='btn' href='./published'>Published</a>
+      Related to this visuals:
+      {% for visual_link in site.data.powerbi.reports.company-employees.relationToCustomVisuals %}
+        <a style="text-transform: capitalize;" href="/powerbi/custom-visuals/{{visual_link}}">{{ visual_link }}</a>
+      {% endfor %}
     </div>
     <div class='right-column'>
     <div id="lightgallery">

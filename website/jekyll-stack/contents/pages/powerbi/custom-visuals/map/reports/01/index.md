@@ -1,8 +1,0 @@
----
-layout: powerbi-report
-permalink: /powerbi/custom-visuals/map/reports/01/
-title: 'SAIFAS BI | Power BI showcase sample report for Power BI custom visual - SAIFAS Map'
----
-Details
-<a class='btn' href='./embedded'>Embedded</a>
-<a class='btn' href='./published'>Published</a>
