@@ -1,6 +1,4 @@
-/builld-website-static
-/website/_builld-website-static
-/website/.sass-cache
-/website/Gemfile.lock
-/website/.jekyll-cache
+/app/app-build-static
+/app/jekyll-stack/Gemfile.lock
+/app/jekyll-stack/.jekyll-cache
 .jekyll-cache

@@ -126,7 +126,7 @@ defaults:
 
 
 sass:
-  sass_dir: ./jekyll-stack/assets/styles/_sass/
+  sass_dir: ./assets/styles/sass/_sass/
 # style: compressed
 
 
@@ -135,15 +135,15 @@ sass:
 
 source                        : ./
 
-destination                   : ./_builld-website-static/ # need to move it to "../"
+destination                   : ../app-build-static/
 # keep_files:
 #   - assets
 
 
 # includes_dr                   : ./jekyll-stack/templates/_includes/ #doesn't support by jekyll
-layouts_dir                   : ./jekyll-stack/templates/_layouts/
+layouts_dir                   : ./templates/_layouts/
 #plugins_dir                   : ./_plugins/
-collections_dir               : ./jekyll-stack/contents/collections/
+collections_dir               : ./contents/collections/
 
 
 # Include
@@ -153,10 +153,10 @@ include:
   - assets
 
 assets_root_path: /assets/ #todo: see ./assets/styles/css/readme.md
-assets_styles_path: /assets/css/styles.css #todo: see ./assets/styles/css/readme.md
+assets_styles_path: /assets/styles/sass/styles.css #todo: see ./assets/styles/css/readme.md
 
-contents_root_path: /jekyll-stack/contents/
-contents_pages_path: /jekyll-stack/contents/pages/
+contents_root_path: /contents/
+contents_pages_path: /contents/pages/
 
 # Exclude
 # Exclude from processing.
