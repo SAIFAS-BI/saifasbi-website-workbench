@@ -1,18 +1,19 @@
 ---
-layout: powerbi
+layout: default
 title: 'SAIFAS BI | Power BI area'
-pageUrl: './'
-pageName: 'Power BI area'
-pageHeadline: 'According to our team experience we provide'
-#engineering-activities
-permalink: /powerbi/index.html
+breadcrumbs-title: 'Power BI area'
+permalink: /powerbi/
 ---
-<div class="circle-container">
-  <div style="max-width: 800px; display: flex; flex-wrap: wrap; justify-content: center; position: relative;">
-    <a class="circle" href="./custom-visuals/">Visuals</a>
-    <a class="circle" href="./reports/">Reports</a>
-    <a class="circle">Scripts</a>
-    <a class="circle">Apps</a>
-    <a class="engineering-activities-btn" href="./engineering-activities/">Engineering<br>activities</a>
-  </div>
-</div>
+{% include page/other/headline.html headline="According to our team experience we provide" %}
+{% include items/circles.html 
+  circle-1-link="./custom-visuals/"
+  circle-1-title="Visuals"
+  circle-2-link="./reports/"
+  circle-2-title="Reports"
+  circle-3-link=""
+  circle-3-title="Scripts"
+  circle-4-link=""
+  circle-4-title="Apps"
+  circle-center-link="./engineering-activities/"
+  circle-center-title="Engineering<br>activities"
+%}

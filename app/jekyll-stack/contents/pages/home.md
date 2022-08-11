@@ -1,8 +1,7 @@
 ---
-layout: home
+layout: default
 title: 'SAIFAS BI'
-pageUrl: './'
-pageName: 'SAIFAS BI'
-headline: 'Our experience'
-permalink: /index.html
+permalink: /
 ---
+{% include page/other/headline.html headline="Our experience" %}
+{% include items/circle-chart.html %}

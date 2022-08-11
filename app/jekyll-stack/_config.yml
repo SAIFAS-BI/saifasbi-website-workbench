@@ -31,55 +31,14 @@ timezone: Europe/Moscow
 google_analytics: UA-[-]
 google_site_verification: [-]
 
-
-# social media id - usernames/groupnames
-
-social_media_facebook_handle: saifascom
-social_media_facebook_url : "https://www.facebook.com/saifascom"
-
-social_media_linkedin_handle: saifas
-social_media_linkedin_url : "https://www.linkedin.com/company/saifas/"
-
-social_media_twitter_handle: saifascom
-social_media_twittern_url : "https://twitter.com/saifascom"
-
-social_media_github_handle: saifas-bi
-social_media_github_url: "https://github.com/saifas-bi"
-
-usebasin_modal_url: https://usebasin.com/f/d773310b9def
-
-
 highlighter: none
 
-theme: jekyll-theme-saifas
+theme: jekyll-theme-saifas-it
 
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  # - jekyll-vcard
-  # - jekyll-minifier
-  # - jekyll-remote-theme
-  # - jekyll-ga
-  # - jekyll-analytics
-  # - jekyll-redirect-from
-  # - jekyll-compose
-  # - jekyll-archives
-  # - jekyll-scholar
-  # - jekyll-feed
-  # - jekyll-gensocial
-  # - jekyll-onebox
-  # - jekyll-mentions
-  # - jekyll-paginate
-  # - jekyll-paginate-v2
-  # - github-metadata
-  # - jekyll-loading-lazy
-
-
-powerBIcustomVisualsTitle: Power BI custom visuals
-powerBIcustomVisualsUrl: "/powerbi/custom-visuals"
-powerBIReportsTitle: Power BI reports
-powerBIReportsUrl: "/powerbi/reports"
 
 collections:
   news:
@@ -120,18 +79,8 @@ defaults:
       permalink: /press-updates/:collection/:categories/:year/:month/:day/:title/
 
 
-# feed:
-#   categories:
-#     - powerbi-custom-visual
-
-
 sass:
   sass_dir: ./assets/styles/sass/_sass/
-# style: compressed
-
-
-# theme:
-
 
 source                        : ./
 
@@ -151,9 +100,6 @@ collections_dir               : ./contents/collections/
 #
 include:
   - assets
-
-assets_root_path: /assets/ #todo: see ./assets/styles/css/readme.md
-assets_styles_path: /assets/styles/sass/styles.css #todo: see ./assets/styles/css/readme.md
 
 contents_root_path: /contents/
 contents_pages_path: /contents/pages/
@@ -188,3 +134,37 @@ exclude:
 # - "*.Rmd"
 # - .travis.yml
 # - node_modules/uglifier/index.js
+
+layout: 
+  header:
+    logo:
+      path: /assets/graphics/images/domain/saifas-bi/logos/saifas-brand-logo-star-theme-blue-black-276px-269px.png
+    links:
+      -
+        title: Experience
+        url: "#experience"
+      -
+        title: Consulting
+        url: "#consulting"
+      -
+        title: Portfolio
+        url: "#portfolio"
+      -
+        title: About us
+        url: "#aboutus"
+  footer:
+    contact_us: true
+    form_url: https://usebasin.com/f/d773310b9def
+    socials:
+      - 
+        name: github
+        url: "https://github.com/saifas-bi"
+      -
+        name: facebook
+        url: "https://www.facebook.com/saifascom"
+      -
+        name: linkedin
+        url: "https://www.linkedin.com/company/saifas/"
+      -
+        name: twitter
+        url: "https://twitter.com/saifascom"
