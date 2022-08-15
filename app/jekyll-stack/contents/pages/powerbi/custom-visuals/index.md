@@ -2,7 +2,6 @@
 layout: default
 permalink: /powerbi/custom-visuals/
 title: 'SAIFAS BI | Power BI custom visuals'
-breadcrumbs-title: Power BI custom visuals
 withoutNav: true
 ---
 {% include page/other/headline.html headline="Our team has developed next Power BI custom visuals" %}

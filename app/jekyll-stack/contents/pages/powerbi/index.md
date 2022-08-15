@@ -1,7 +1,6 @@
 ---
 layout: default
 title: 'SAIFAS BI | Power BI area'
-breadcrumbs-title: 'Power BI area'
 permalink: /powerbi/
 withoutNav: true
 ---
