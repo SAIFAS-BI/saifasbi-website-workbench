@@ -2,7 +2,7 @@
 layout: default
 permalink: /powerbi/engineering-activities/
 title: 'SAIFAS BI | Power BI area'
-pageHeadline: 'According to our team experience we provide'
+withoutNav: true
 
 ---
 {% include page/other/headline.html headline="According to our team experience we provide" %}

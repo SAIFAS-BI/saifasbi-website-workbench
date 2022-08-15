@@ -3,6 +3,7 @@ layout: default
 title: SAIFAS BI | Power BI custom visual - SAIFAS Legend
 permalink: /powerbi/custom-visuals/legend/
 breadcrumbs-title: Legend
+withoutNav: true
 ---
 {% include pages/details.html
   imageUrl=site.data.powerbi.custom-visuals.legend.global.imageUrl

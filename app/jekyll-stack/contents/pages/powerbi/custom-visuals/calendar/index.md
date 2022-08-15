@@ -3,6 +3,7 @@ layout: default
 title: SAIFAS BI | Power BI custom visual - SAIFAS Calendar
 permalink: /powerbi/custom-visuals/calendar/
 breadcrumbs-title: Calendar
+withoutNav: true
 ---
 {% include pages/details.html
   imageUrl=site.data.powerbi.custom-visuals.calendar.global.imageUrl

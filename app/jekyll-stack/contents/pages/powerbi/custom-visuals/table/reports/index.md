@@ -3,6 +3,7 @@ layout: default
 permalink: /powerbi/custom-visuals/table/reports/
 title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual - SAIFAS Table'
 breadcrumbs-title: 'Power BI reports'
+withoutNav: true
 ---
 {% include page/other/headline.html headline="For selected Power BI custom visual we prepared next showcase sample reports" %}
 {% for report_hash in site.data.powerbi.reports %}

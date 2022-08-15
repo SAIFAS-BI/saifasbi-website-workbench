@@ -3,6 +3,7 @@ layout: default
 title: SAIFAS BI | Power BI custom visual - SAIFAS Project
 permalink: /powerbi/custom-visuals/project/
 breadcrumbs-title: Project
+withoutNav: true
 ---
 {% include pages/details.html
   imageUrl=site.data.powerbi.custom-visuals.project.global.imageUrl

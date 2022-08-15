@@ -3,6 +3,7 @@ layout: default
 permalink: /powerbi/reports/
 title: 'SAIFAS BI | Power BI reports'
 breadcrumbs-title: 'Power BI reports'
+withoutNav: true
 ---
 {% for report_hash in site.data.powerbi.reports %}
 {% assign report = report_hash[1] %}

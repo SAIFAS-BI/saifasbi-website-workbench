@@ -3,6 +3,7 @@ layout: default
 title: 'SAIFAS BI | Power BI area'
 breadcrumbs-title: 'Power BI area'
 permalink: /powerbi/
+withoutNav: true
 ---
 {% include page/other/headline.html headline="According to our team experience we provide" %}
 {% include items/circles.html 

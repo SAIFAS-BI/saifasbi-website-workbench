@@ -3,6 +3,7 @@ layout: default
 title: SAIFAS BI | Power BI custom visual - SAIFAS Map
 permalink: /powerbi/custom-visuals/map/
 breadcrumbs-title: Map
+withoutNav: true
 ---
 {% include pages/details.html
   imageUrl=site.data.powerbi.custom-visuals.map.global.imageUrl
