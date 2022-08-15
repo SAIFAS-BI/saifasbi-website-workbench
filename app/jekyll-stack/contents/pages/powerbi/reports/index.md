@@ -2,9 +2,10 @@
 layout: default
 permalink: /powerbi/reports/
 title: 'SAIFAS BI | Power BI reports'
-breadcrumbs-title: 'Power BI reports'
 withoutNav: true
 ---
+{% include page/other/headline.html headline="Reports" %}
+<div style="display: flex; justify-content: center; flex-wrap: wrap; flex: 1;">
 {% for report_hash in site.data.powerbi.reports %}
 {% assign report = report_hash[1] %}
   {% include items/card.html 
@@ -19,3 +20,4 @@ withoutNav: true
     publishedLink=report.publishedLink
   %}
 {% endfor %}
+</div>

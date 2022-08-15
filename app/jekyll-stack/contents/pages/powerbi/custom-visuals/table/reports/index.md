@@ -6,6 +6,7 @@ breadcrumbs-title: 'Power BI reports'
 withoutNav: true
 ---
 {% include page/other/headline.html headline="For selected Power BI custom visual we prepared next showcase sample reports" %}
+<div style="display: flex; justify-content: center; flex-wrap: wrap; flex: 1;">
 {% for report_hash in site.data.powerbi.reports %}
 {% assign report = report_hash[1] %}
 {% if report.relationToCustomVisuals contains 'table' %}
@@ -22,3 +23,4 @@ withoutNav: true
   %}
 {% endif %}
 {% endfor %}
+</div>
