@@ -142,7 +142,7 @@ layout:
     links:
       -
         title: Experience
-        url: "#experience"
+        url: "#"
       -
         title: Consulting
         url: "#consulting"
