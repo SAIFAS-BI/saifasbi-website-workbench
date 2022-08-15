@@ -3,4 +3,5 @@ description: Power BI report
 link:
 detailsLink:
 image: /assets/graphics/images/content/saifas-bi-powerbi-reports/saifas-bi-pbi-report-world-population-300px-300px.png
+iconUrl: /assets/graphics/images/content/powerbi-icon-report-theme-white-black-900px-900px.png
 relationToCustomVisuals: [table, map]

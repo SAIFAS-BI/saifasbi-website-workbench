@@ -1,19 +1,17 @@
 ---
-layout: powerbi-custom-visual
+layout: default
+title: SAIFAS BI | Power BI custom visual - SAIFAS Calendar
 permalink: /powerbi/custom-visuals/calendar/
-title: 'SAIFAS BI | Power BI custom visual - SAIFAS Calendar'
+breadcrumbs-title: Calendar
+withoutNav: true
 ---
-<div class="details__card">
-  <div class="details__card-image">
-    <img src="/assets/graphics/images/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-calendar-120px-120px.png">
-  </div>
-  <div class="details__card-text">
-    <div class="details__card-title">
-      Calendar
-    </div>
-    <div class="details__card-description">
-      Power BI Custom Visual
-    </div>
-    <a class='btn' href='./reports'>Reports</a>
-  </div>
-</div>
+{% include pages/details.html
+  imageUrl=site.data.powerbi.custom-visuals.calendar.global.imageUrl
+  iconUrl=site.data.powerbi.custom-visuals.calendar.global.iconUrl
+  title=site.data.powerbi.custom-visuals.calendar.global.title
+  cardType=site.data.powerbi.custom-visuals.calendar.global.cardType
+  cost=site.data.powerbi.custom-visuals.calendar.detailed.cost
+  type="product"
+  issuesLink=site.data.powerbi.custom-visuals.calendar.global.issuesLink
+  description=site.data.powerbi.custom-visuals.calendar.detailed.description
+%}

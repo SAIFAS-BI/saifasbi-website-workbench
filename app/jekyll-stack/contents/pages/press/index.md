@@ -1,8 +1,8 @@
 ---
-layout: news
+layout: default
 title: Press
 permalink: /press/
 ---
 {% for post in site.news -%}
-  {% include news-item-archive.html -%}
+  {% include items/news-thumbnail.html -%}
 {% endfor -%}

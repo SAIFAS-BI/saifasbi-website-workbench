@@ -1,20 +1,26 @@
 ---
-layout: powerbi-reports
+layout: default
 permalink: /powerbi/custom-visuals/table/reports/
 title: 'SAIFAS BI | Power BI showcase sample reports for Power BI custom visual - SAIFAS Table'
-pageUrl: './'
-pageName: 'Power BI reports'
-pageHeadline: 'For selected Power BI custom visual we prepared next showcase sample reports'
-currentCanvasPathName: 'Power BI reports'
-currentCanvasPathUrl: './'
-currentCanvasParentItemPathName: 'Table'
-currentCanvasParentItemPathUrl: '../'
-currentCanvasParentItemParentArrayPathName: 'Power BI custom visuals'
-currentCanvasParentItemParentArrayPathUrl: '../../'
+breadcrumbs-title: 'Power BI reports'
+withoutNav: true
 ---
+{% include page/other/headline.html headline="For selected Power BI custom visual we prepared next showcase sample reports" %}
+<div style="display: flex; justify-content: center; flex-wrap: wrap; flex: 1;">
 {% for report_hash in site.data.powerbi.reports %}
 {% assign report = report_hash[1] %}
 {% if report.relationToCustomVisuals contains 'table' %}
-  {% include powerbi/report/card.html %}
+  {% include items/card.html 
+    imageUrl=report.image 
+    title=report.title 
+    iconUrl=report.iconUrl
+    cardType="Power BI report"
+    type="report" 
+    description=report.description
+    detailsLink=report.detailsLink
+    embeddedLink=report.embeddedLink
+    publishedLink=report.publishedLink
+  %}
 {% endif %}
 {% endfor %}
+</div>

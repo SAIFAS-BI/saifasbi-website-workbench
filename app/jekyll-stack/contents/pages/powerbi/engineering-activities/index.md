@@ -1,23 +1,23 @@
 ---
-layout: engineering-activities
+layout: default
 permalink: /powerbi/engineering-activities/
 title: 'SAIFAS BI | Power BI area'
-pageUrl: './'
-pageName: 'Power BI area'
-pageHeadline: 'According to our team experience we provide'
-#engineering-activities
+withoutNav: true
+
 ---
-<div class="power-bi__buttons-container">
-  <a href='/powerbi/custom-visuals' class="power-bi__buttons-container--btn">
-    Custom visuals development
-    <i class="fas fa-file-alt fa-3x"></i>
-    <div class="power-bi__buttons-container--tag">Type script</div>
-  </a>
-  <a href='' class="power-bi__buttons-container--btn">Data visualization</a>
-  <a href='' class="power-bi__buttons-container--btn">Data modelling & data architecture</a>
-  <a href='' class="power-bi__buttons-container--btn">ETL Pipeline</a>
-  <a href='' class="power-bi__buttons-container--btn">Data analysis & data analytics</a>
-  <a href='' class="power-bi__buttons-container--btn">Solutions deployment</a>
-  <a href='' class="power-bi__buttons-container--btn">DevOps</a>
-  <a href='' class="power-bi__buttons-container--btn">Power Apps development</a>
+{% include page/other/headline.html headline="According to our team experience we provide" %}
+<div style="display: grid; align-self: center; grid-template-columns: repeat(auto-fit, 25% 25% 25% 25%);">
+  {% include items/card-activities.html 
+    link="/powerbi/custom-visuals" 
+    title="Custom visuals development" 
+    iconClass="fas fa-file-alt fa-3x" 
+    tagsText="Type script" 
+  %}
+  {% include items/card-activities.html link="" title="Data visualization" %}
+  {% include items/card-activities.html link="" title="Data modelling & data architecture" %}
+  {% include items/card-activities.html link="" title="ETL Pipeline" %}
+  {% include items/card-activities.html link="" title="Data analysis & data analytics" %}
+  {% include items/card-activities.html link="" title="Solutions deployment" %}
+  {% include items/card-activities.html link="" title="DevOps" %}
+  {% include items/card-activities.html link="" title="Power Apps development" %}
 </div>

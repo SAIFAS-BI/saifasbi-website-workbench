@@ -5,4 +5,14 @@ detailsLink: /powerbi/reports/company-employees/
 embeddedLink: /powerbi/reports/company-employees/embedded/
 publishedLink: /powerbi/reports/company-employees/published/
 image: /assets/graphics/images/content/saifas-bi-powerbi-reports/saifas-bi-pbi-report-company-employees-300px-300px.png
+iconUrl: /assets/graphics/images/content/powerbi-icon-report-theme-white-black-900px-900px.png
+images:
+  -
+    url: /assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg
+  -
+    url: /assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg
+  -
+    url: /assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg
+  -
+    url: /assets/graphics/images/content/empty/empty-showcase-sample-report/empty-image-500px-400px.jpg
 relationToCustomVisuals: [table]
