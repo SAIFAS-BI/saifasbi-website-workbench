@@ -1,19 +1,16 @@
 ---
-layout: powerbi-custom-visual
+layout: default
+title: SAIFAS BI | Power BI custom visual - SAIFAS Map
 permalink: /powerbi/custom-visuals/map/
-title: 'SAIFAS BI | Power BI custom visual - SAIFAS Map'
+breadcrumbs-title: Map
 ---
-<div class="details__card">
-  <div class="details__card-image">
-    <img src="/assets/graphics/images/content/saifas-bi-powerbi-custom-visuals/saifas-bi-pbi-cv-map-120px-120px.png">
-  </div>
-  <div class="details__card-text">
-    <div class="details__card-title">
-      Map
-    </div>
-    <div class="details__card-description">
-      Power BI Custom Visual
-    </div>
-    <a class='btn' href='./reports'>Reports</a>
-  </div>
-</div>
+{% include pages/details.html
+  imageUrl=site.data.powerbi.custom-visuals.map.global.imageUrl
+  iconUrl=site.data.powerbi.custom-visuals.map.global.iconUrl
+  title=site.data.powerbi.custom-visuals.map.global.title
+  cardType=site.data.powerbi.custom-visuals.map.global.cardType
+  cost=site.data.powerbi.custom-visuals.map.detailed.cost
+  type="product"
+  issuesLink=site.data.powerbi.custom-visuals.map.global.issuesLink
+  description=site.data.powerbi.custom-visuals.map.detailed.description
+%}

@@ -6,7 +6,7 @@ breadcrumbs-title: Power BI custom visuals
 ---
 {% include page/other/headline.html headline="Our team has developed next Power BI custom visuals" %}
 {% for pbi-cv_hash in site.data.powerbi.custom-visuals %}
-{% assign pbi-cv = pbi-cv_hash[1].minimized %}
+{% assign pbi-cv = pbi-cv_hash[1] %}
   {% include items/card.html 
     imageUrl=pbi-cv.global.imageUrl
     title=pbi-cv.global.title 
